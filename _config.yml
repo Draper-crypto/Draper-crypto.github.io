@@ -14,17 +14,12 @@ sidebar: true                           # 是否开启侧边栏
 sidebar-about-description: "长恨此身非我有，何时忘却营营。小舟从此逝，书海寄余生。"
 sidebar-avatar: /img/about-BY-gentle.jpg      # 头像
 
-
-
 # SNS settings
 RSS: false
 zhihu_username:     www.zhihu.com/people/draper-crypto
 github_username:    https://github.com/Draper-crypto
 # jianshu_username:   e71990ada2fd
 # twitter_username:   qiubaiying
-
-
-
 
 # Build settings
 # from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
