@@ -11,7 +11,7 @@ github_repo: "https://github.com/qiubaiying/qiubaiying.github.io.git" # you code
 
 # Sidebar settings
 sidebar: true                           # 是否开启侧边栏
-sidebar-about-description: "长恨此身非我有，何时忘却营营。小舟从此逝，书海寄余生。"
+sidebar-about-description: "做法治之光"
 sidebar-avatar: /img/about-BY-gentle.jpg      # 头像
 
 # SNS settings
