@@ -125,21 +125,23 @@ header-img: "img/post-about.jpg"
     _render();
 </script>
 
+<!-- Gitalk 评论 start  -->
+
 <!-- Link Gitalk 的支持文件  -->
 <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
-<script src="https://unpkg.com/gitalk@latest/dist/gitalk.min.js"></script>
-<div id="gitalk-container"></div>
-<script type="text/javascript">
+<script src="https://unpkg.com/gitalk@latest/dist/gitalk.min.js"></script> 
+<div id="gitalk-container"></div>     <script type="text/javascript">
     var gitalk = new Gitalk({
 
-        // gitalk的主要参数
-        clientID: '{{site.gitalk.clientID}}',
-        clientSecret: '{{site.gitalk.clientSecret}}',
-        repo: '{{site.gitalk.repo}}',
-        owner: '{{site.gitalk.owner}}',
-        admin: ['{{site.gitalk.admin}}'],
-        id: 'about',
+    // gitalk的主要参数
+		clientID: `bbbeebb2c21ca285ae17`,
+		clientSecret: `f8f4303d126f5ba753eec1bc6228db915d5d554e`,
+		repo: `Draper-crypto.github.io`,
+		owner: 'Draper-crypto',
+		admin: ['Draper-crypto'],
+		id: 'about',
+        distractionFreeMode: true #是否启用类似FB的阴影遮罩
     });
     gitalk.render('gitalk-container');
-</script>
+</script> 
 <!-- Gitalk end -->
