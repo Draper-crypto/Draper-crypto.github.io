@@ -53,7 +53,7 @@ kramdown:
 disqus_username: cryptodraper
 
 # Gitalk
-# gitalk:
+gitalk:
 enable: true    #是否开启Gitalk评论
 clientID: bbbeebb2c21ca285ae17                           #生成的clientID
 clientSecret: f8f4303d126f5ba753eec1bc6228db915d5d554e    #生成的clientSecret
