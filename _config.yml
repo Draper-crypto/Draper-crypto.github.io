@@ -83,11 +83,11 @@ service-worker: true
 # Friends
 friends: [
     {
-        title: "简书",
-        href: "http://www.jianshu.com"
+        title: "CSDN",
+        href: "https://blog.csdn.net"
     },{
-        title: "Apple",
-        href: "https://apple.com"
+        title: "知乎",
+        href: "https://www.zhihu.com/"
     },{
         title: "Apple Developer",
         href: "https://developer.apple.com/"
