@@ -167,7 +167,7 @@ msf5 > use exploit/windows/smb/ms08_067_netapi
 msf5 exploit(windows/smb/ms08_067_netapi) > back
 ```
 
-### [http://5.info](https://link.zhihu.com/?target=http%3A//5.info)命令
+### 5.info命令
 
 显示模块的相关信息。
 
