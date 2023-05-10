@@ -343,6 +343,8 @@ msf5 exploit(windows/smb/ms17_010_eternalblue) > show options
 
 ```powershell
 msf5 exploit(windows/smb/ms17_010_eternalblue) > set rhosts 192.168.2.173
+```
+```powershell
 msf5 exploit(windows/smb/ms17_010_eternalblue) > show options
 ```
 
