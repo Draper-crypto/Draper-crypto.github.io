@@ -56,6 +56,8 @@ Metasploit程序需要使用PostgreSQL数据库。
 
 ```powershell
 root@kali:~# systemctl start postgresql
+```
+```powershell
 root@kali:~# systemctl enable postgresql         #设置成开机启动数据库
 ```
 
