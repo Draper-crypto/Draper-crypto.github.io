@@ -123,7 +123,7 @@ layout: default
                             </li>
                             {% endif %}
                             <!-- add jianshu add target = "_blank" to <a> by BY -->
-                            {% if site.jianshu_username %}
+                            <!-- {% if site.jianshu_username %}
                             <li>
                                 <a target="_blank" href="https://www.jianshu.com/u/{{ site.jianshu_username }}">
                                     <span class="fa-stack fa-lg">
@@ -131,8 +131,8 @@ layout: default
                                         <i class="fa  fa-stack-1x fa-inverse">简</i>
                                     </span>
                                 </a>
-                            </li>
-                            {% endif %}
+                            </li> 
+                            {% endif %} -->
                             {% if site.twitter_username %}
                             <li>
                                 <a href="https://twitter.com/{{ site.twitter_username }}">
@@ -153,22 +153,12 @@ layout: default
                                 </a>
                             </li>
                             {% endif %}
-                            {% if site.weibo_username %}
+                            {% if site.csdn_username %}
                             <li>
-                                <a target="_blank" href="http://weibo.com/{{ site.weibo_username }}">
+                                <a target="_blank" href="https://blog.csdn.net/{{ site.csdn_username }}">
                                     <span class="fa-stack fa-lg">
                                         <i class="fa fa-circle fa-stack-2x"></i>
-                                        <i class="fa fa-weibo fa-stack-1x fa-inverse"></i>
-                                    </span>
-                                </a>
-                            </li>
-                            {% endif %}
-                            {% if site.facebook_username %}
-                            <li>
-                                <a target="_blank" href="https://www.facebook.com/{{ site.facebook_username }}">
-                                    <span class="fa-stack fa-lg">
-                                        <i class="fa fa-circle fa-stack-2x"></i>
-                                        <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                                        <i class="fa fa-stack-1x fa-inverse">C</i>
                                     </span>
                                 </a>
                             </li>
@@ -183,7 +173,16 @@ layout: default
                                 </a>
                             </li>
                             {% endif %}
-                            
+                            <!-- {% if site.facebook_username %}
+                            <li>
+                                <a target="_blank" href="https://www.facebook.com/{{ site.facebook_username }}">
+                                    <span class="fa-stack fa-lg">
+                                        <i class="fa fa-circle fa-stack-2x"></i>
+                                        <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                                    </span>
+                                </a>
+                            </li>
+                            {% endif %} -->
                         </ul>
                         {% if site.email %}
                             <p>✉️ {{site.email}}</p>

