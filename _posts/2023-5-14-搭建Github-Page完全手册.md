@@ -107,12 +107,12 @@ csdn_username:   你的用户名
 ```html
 {% if site.csdn_username %}
 	<li>
-        <a target="_blank" href="https://blog.csdn.net/{{ site.csdn_username }}">
-        	<span class="fa-stack fa-lg">
-        		<i class="fa fa-circle fa-stack-2x"></i>
-        		<i class="fa fa-stack-1x fa-inverse">C</i>
-        	</span>
-     	</a>
+		<a target="_blank" href="https://blog.csdn.net/{{ site.csdn_username }}">
+			<span class="fa-stack fa-lg">
+				<i class="fa fa-circle fa-stack-2x"></i>
+				<i class="fa fa-stack-1x fa-inverse">C</i>
+			</span>
+	 	</a>
 	</li>
 {% endif %}
 ```
