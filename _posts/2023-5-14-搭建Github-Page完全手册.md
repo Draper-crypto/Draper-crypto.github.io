@@ -30,7 +30,7 @@ tags:
 
 - 搭建方法参考文章：[搭建方法参考](https://qiubaiying.github.io/2017/02/06/%E5%BF%AB%E9%80%9F%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/)
 
-- 其他好看的模板：[模板一](https://github.com/jeffreytse/jekyll-theme-yat/tree/v1.9.0)&emsp;&emsp;&emsp;&emsp;[模板二](https://github.com/kitian616/jekyll-TeXt-theme)
+- 其他好看的模板：[模板一](https://github.com/jeffreytse/jekyll-theme-yat/tree/v1.9.0)&emsp;&emsp;[模板二](https://github.com/kitian616/jekyll-TeXt-theme)
 
 ## 2.拉取仓库
 
@@ -246,6 +246,7 @@ csdn_username:   你的用户名
 ![image-20230515162336089](https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/image-20230515162336089.png)
 
 - 修改成cloudflare提供的DNS服务器,点击确认。
+
 ```
 dante.ns.cloudflare.com
 stella.ns.cloudflare.com
