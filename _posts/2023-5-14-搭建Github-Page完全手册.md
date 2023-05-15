@@ -176,9 +176,12 @@ csdn_username:   你的用户名
 ![image-20230514235045476](https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/image-20230514235045476.png)
 
 - 填入购买的域名
-![image-20230515085604613](C:\Users\21372\AppData\Roaming\Typora\typora-user-images\image-20230515085604613.png)
+
+![image-20230515210737322](https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/image-20230515210737322.png)
 
 - 出现这个标志表示域名添加成功
+
+
 ![image-20230515112250419](https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/202305151122506.png)
 
 - 回到仓库界面多出CNAME文件，文件内存放刚刚添加的域名
