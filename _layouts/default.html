@@ -4,7 +4,6 @@
 {% include head.html %}
 
 <!-- hack iOS CSS :active style -->
-
 <body ontouchstart="">
 
     {% include nav.html %}
@@ -14,35 +13,10 @@
     {% include footer.html %}
 
 
-    <!-- Image to hack wechat -->
-    <img src="/img/apple-touch-icon.png" width="0" height="0" />
-    <!-- Migrate from head to bottom, no longer block render and still work -->
+<!-- Image to hack wechat -->
+<img src="/img/apple-touch-icon.png" width="0" height="0" />
+<!-- Migrate from head to bottom, no longer block render and still work -->
 
-    <!-- 返回顶部浮动按钮 -->
-    <a href="#" class="scroll-to-top" style="display: none;">
-        <i class="fa fa-chevron-up"></i>
-    </a>
-
-    {% include footer.html %}
-
-    <!-- 引入jQuery库 -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
-    <!-- 返回顶部浮动按钮的JavaScript脚本 -->
-    <script>
-        $(window).scroll(function () {
-            if ($(this).scrollTop() > 100) {
-                $('.scroll-to-top').fadeIn();
-            } else {
-                $('.scroll-to-top').fadeOut();
-            }
-        });
-
-        $('.scroll-to-top').click(function () {
-            $('html, body').animate({ scrollTop: 0 }, 800);
-            return false;
-        });
-    </script>
 </body>
 
 </html>
