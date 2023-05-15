@@ -27,7 +27,8 @@ tags:
 
 零基础的朋友可以直接拉取他的仓库
 
-搭建方法参考文章：[快速搭建个人博客]:https://qiubaiying.github.io/2017/02/06/%E5%BF%AB%E9%80%9F%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/
+搭建方法参考文章：
+[快速搭建个人博客]:https://qiubaiying.github.io/2017/02/06/%E5%BF%AB%E9%80%9F%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/
 
 ## 2.拉取仓库
 
