@@ -32,6 +32,28 @@ layout: default
         {
         % endif %
     }
+
+    /* 返回顶部浮动按钮样式 */
+    .scroll-to-top {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        display: none;
+        color: #fff;
+        background-color: #000;
+        padding: 10px;
+        border-radius: 50%;
+        cursor: pointer;
+        z-index: 9999;
+    }
+
+    .scroll-to-top:hover {
+        background-color: #333;
+    }
+
+    .scroll-to-top i {
+        font-size: 20px;
+    }
 </style>
 <header class="intro-header">
     <div class="header-mask"></div>
@@ -171,6 +193,11 @@ layout: default
             </div>
         </div>
     </div>
+    <!-- 返回顶部浮动按钮 -->
+    <div class="scroll-to-top">
+        <i class="fa fa-chevron-up"></i>
+    </div>
+
 </article>
 
 {% if site.anchorjs %}
@@ -188,7 +215,6 @@ layout: default
 <!-- anchor-js, Doc:http://bryanbraun.github.io/anchorjs/ -->
 <script>
     async("//cdnjs.cloudflare.com/ajax/libs/anchor-js/1.1.1/anchor.min.js", function () {
-        // BY Fix:去除标题前的‘#’ issues:<https://github.com/qiubaiying/qiubaiying.github.io/issues/137>
         // anchors.options = {
         //   visible: 'always',
         //   placement: 'right',
@@ -196,6 +222,21 @@ layout: default
         // };
         anchors.add().remove('.intro-header h1').remove('.subheading').remove('.sidebar-container h5');
     })
+
+    // 返回顶部浮动按钮
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 100) {
+            $('.scroll-to-top').fadeIn();
+        } else {
+            $('.scroll-to-top').fadeOut();
+        }
+    });
+
+    $('.scroll-to-top').click(function () {
+        $('html, body').animate({ scrollTop: 0 }, 800);
+        return false;
+    });
+
 </script>
 <style>
     /* place left on bigger screen */
