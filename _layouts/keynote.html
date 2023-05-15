@@ -2,10 +2,6 @@
 layout: default
 ---
 
-<!-- Image to hack wechat -->
-<!-- <img src="/img/icon_wechat.png" width="0" height="0"> -->
-<!-- <img src="{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}" width="0" height="0"> -->
-
 <!-- Post Header -->
 <style type="text/css">
     header.intro-header{
@@ -151,11 +147,6 @@ layout: default
 <script>
     var $header = document.getElementsByTagName("header")[0];
     function resize(){
-        /*
-         * leave 85px to both
-         * - told/imply users that there has more content below
-         * - let user can scroll in mobile device, seeing the keynote-view is unscrollable
-         */
         $header.style.height = (window.innerHeight-85) + 'px';
     }
     document.addEventListener('DOMContentLoaded', function(){
