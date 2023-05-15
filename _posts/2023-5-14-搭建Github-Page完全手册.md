@@ -16,7 +16,7 @@ tags:
 > 注意：不想在本地安装软件或环境的读者可以跳过此章节
 
 1. 注册`Github`账号（必备）
-2. 下载`GitHub Desktop`：https://central.github.com/deployments/desktop/desktop/latest/win32（可使用`git`代替）
+2. 下载`GitHub Desktop`：[下载链接](https://central.github.com/deployments/desktop/desktop/latest/win32)（可使用`git`代替）
 3. 
 
 # 二、快速入门
@@ -71,7 +71,7 @@ Repository name = 存储库名称 = 你想给他取的存储库名字
 
 ![image-20230514232212722](https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/image-20230514232212722.png)
 
-#三、完善
+# 三、完善
 
 > 推荐使用`GitHub Desktop`将仓库拉取到本地，然后使用`vscode`编辑
 
@@ -127,9 +127,9 @@ csdn_username:   你的用户名
 
 （1）域名购买方推荐使用
 
-- [godaddy]:https://www.godaddy.com/zh-sg
+- [godaddy](https://www.godaddy.com/zh-sg)
 
-- [阿里云-万网]:https://wanwang.aliyun.com/
+- [阿里云-万网](https://wanwang.aliyun.com/)
 
 （2）作者使用的是阿里云万网域名
 
