@@ -2,7 +2,7 @@
 layout:     post
 title:      搭建Github Page完全手册
 subtitle:   技术博文
-date:       2023-5-14
+date:       2023-5-15
 author:     Draper-crypto
 header-img: img/blogimg/post-bg-coffee.jpeg
 catalog: 	 true
@@ -13,22 +13,24 @@ tags:
 
 # 一、前期准备
 
-> 注意：不想在本地安装软件或环境的读者可以跳过此章节
-
 1. 注册`Github`账号（必备）
 2. 下载`GitHub Desktop`：[下载链接](https://central.github.com/deployments/desktop/desktop/latest/win32)（可使用`git`代替）
-3. 
+3. 模板选择网站：
+   - [jekyllthemes.org](http://jekyllthemes.org/)
+   - [jekythemes.net](https://www.jekyllthemes.net/)
+   - [mademistakes](https://mademistakes.com/work/jekyll-themes/) 
 
 # 二、快速入门
 
 ## 1.模板参考
 
-作者使用的模板来源：https://github.com/qiubaiying/qiubaiying.github.io
+- 作者使用的模板来源：https://github.com/qiubaiying/qiubaiying.github.io
 
-零基础的朋友可以直接拉取他的仓库
+- 零基础的朋友可以直接拉取他的仓库
 
-搭建方法参考文章：
-[搭建方法参考](https://qiubaiying.github.io/2017/02/06/%E5%BF%AB%E9%80%9F%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/)
+- 搭建方法参考文章：[搭建方法参考](https://qiubaiying.github.io/2017/02/06/%E5%BF%AB%E9%80%9F%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/)
+
+- 其他好看的模板：[模板一](https://github.com/jeffreytse/jekyll-theme-yat/tree/v1.9.0)&emsp;&emsp;&emsp;&emsp;[模板二](https://github.com/kitian616/jekyll-TeXt-theme)
 
 ## 2.拉取仓库
 
