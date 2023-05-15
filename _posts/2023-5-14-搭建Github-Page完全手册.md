@@ -73,7 +73,7 @@ Repository name = 存储库名称 = 你想给他取的存储库名字
 
 ![image-20230514232212722](https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/image-20230514232212722.png)
 
-# 三、完善
+# 三、进阶步骤
 
 > 推荐使用`GitHub Desktop`将仓库拉取到本地，然后使用`vscode`编辑
 
@@ -212,6 +212,74 @@ csdn_username:   你的用户名
 
 ![image-20230515113801562](https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/202305151138676.png)
 
-（6）添加
+（6）添加DNS记录
 
 ![image-20230515113950408](https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/202305151139555.png)
+
+（7）cloudflare会扫描出当前域名的A、AAAA、CNAME记录，并显示在下面
+
+> 由于使用演示案例的域名配置所以无记录显示
+
+![image-20230515160803824](https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/image-20230515160803824.png)
+
+（8）指引会告诉您删除阿里云分配的服务器添加cloudflare给出的服务器
+
+![image-20230515161211685](https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/image-20230515161211685.png)
+
+（9）更改cloudflare给出的服务器
+
+- 打开域名控制台
+
+![image-20230515161815472](https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/image-20230515161815472.png)
+
+- 点击域名后的`管理`按钮
+
+![image-20230515162012902](https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/image-20230515162012902.png)
+
+- 管理界面点击修改DNS服务
+
+![image-20230515162213601](https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/image-20230515162213601.png)
+
+
+- 点击修改DNS服务器
+
+![image-20230515162336089](https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/image-20230515162336089.png)
+
+- 修改成cloudflare提供的DNS服务器,点击确认。
+```
+dante.ns.cloudflare.com
+stella.ns.cloudflare.com
+```
+
+![image-20230515162649278](https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/image-20230515162649278.png)
+
+- 修改成功
+
+![image-20230515163004488](https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/image-20230515163004488.png)
+
+（10）回到cloudflare应显示如下界面，则代表修改成功
+
+![image-20230515163148094](https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/image-20230515163148094.png)
+
+（11）点击SSL设置
+
+![image-20230515163307257](https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/image-20230515163307257.png)
+
+（12）默认应该为如图所示，若不是，则选择第三个选项
+
+> 注意：
+>
+> 1. 中文为`完全`，英文为`Full`
+> 2. 更改不是立即生效，需要稍等一会
+
+![image-20230515163433804](https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/image-20230515163433804.png)
+
+（13）完成上述步骤后回到GitHub，打开强制使用https的开关，以增强安全性
+
+![image-20230515163759242](https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/image-20230515163759242.png)
+
+![image-20230515163818592](https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/image-20230515163818592.png)
+
+（14）至此SSL证书配置完毕，可以使用https进行访问
+
+![image-20230515163933714](https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/image-20230515163933714.png)
