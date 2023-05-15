@@ -190,3 +190,28 @@ csdn_username:   你的用户名
 
 ##  3.添加SSL证书实现https访问
 
+> 注意：到该步骤前，请确定您的网站可以通过访问域名正常转跳
+
+（1）访问https://www.cloudflare.com/zh-cn/，注册用户
+
+![image-20230515113344002](https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/202305151133135.png)
+
+（2）使用已注册完成的账号登录，来到这个界面
+
+![image-20230515113457735](https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/202305151134857.png)
+
+（3）点击添加站点
+
+![image-20230515113534788](https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/202305151135924.png)
+
+（4）输入站点网址
+
+![image-20230515113650281](https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/202305151136407.png)
+
+（5）选择免费服务
+
+![image-20230515113801562](https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/202305151138676.png)
+
+（6）添加
+
+![image-20230515113950408](https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/202305151139555.png)
