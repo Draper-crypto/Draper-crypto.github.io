@@ -141,11 +141,33 @@ csdn_username:   你的用户名
 
 （3）配置域名解析
 
-- 
+- 打开域名管理界面
+
+![image-20230515110945863](https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/202305151109028.png)
+
+- 点击`解析`
 
 ![image-20230515085950949](https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/202305150859099.png)
 
+- 添加解析记录
 
+> 可按需添加，这里的IPv6地址可以使用cmd直接ping你的博客地址得出
+
+| 主机记录 | 记录类型 | 记录值                |
+| -------- | -------- | --------------------- |
+| @        | A        | 185.199.111.153       |
+| @        | A        | 185.199.110.153       |
+| @        | A        | 185.199.109.153       |
+| @        | A        | 185.199.108.153       |
+| @        | AAAA     | 2606:50c0:8003::153   |
+| @        | AAAA     | 2606:50c0:8002::153   |
+| @        | AAAA     | 2606:50c0:8001::153   |
+| @        | AAAA     | 2606:50c0:8000::153   |
+| www      | CNAME    | youusername.github.io |
+
+配置具体如图所示
+
+![image-20230515112020649](https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/202305151120809.png)
 
 （4）购买完成并配置完域名转发后，回到Github已经可以访问的库中，点击setting
 
@@ -155,6 +177,16 @@ csdn_username:   你的用户名
 
 - 填入购买的域名
 ![image-20230515085604613](C:\Users\21372\AppData\Roaming\Typora\typora-user-images\image-20230515085604613.png)
+
+- 出现这个标志表示域名添加成功
+![image-20230515112250419](https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/202305151122506.png)
+
+- 回到仓库界面多出CNAME文件，文件内存放刚刚添加的域名
+>注意：若没有自动新增该文件，则需要自行手动增加
+
+![image-20230515112526748](https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/202305151125899.png)
+
+![image-20230515112707261](https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/202305151127375.png)
 
 ##  3.添加SSL证书实现https访问
 
