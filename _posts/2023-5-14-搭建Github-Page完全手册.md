@@ -137,13 +137,22 @@ csdn_username:   你的用户名
 
 ![image-20230514234718681](https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/image-20230514234718681.png)
 
-（3）购买完成后，回到Github已经可以访问的库中，点击setting
+（3）配置域名解析
+
+- 
+
+![image-20230515085950949](https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/202305150859099.png)
+
+
+
+（4）购买完成并配置完域名转发后，回到Github已经可以访问的库中，点击setting
 
 - 选择Pages选项
 
 ![image-20230514235045476](https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/image-20230514235045476.png)
 
-- 
+- 填入购买的域名
+![image-20230515085604613](C:\Users\21372\AppData\Roaming\Typora\typora-user-images\image-20230515085604613.png)
 
 ##  3.添加SSL证书实现https访问
 
