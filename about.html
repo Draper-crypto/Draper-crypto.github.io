@@ -1,48 +1,146 @@
 ---
 layout: page
 title: "About"
-description: "「他单纯只想把日子过得不浪费」"
-header-img: "img/bg-me-2022.jpg"
-header-mask: 0.3
-multilingual: true
+description: "Hey, this is draper-crypto."
+header-img: "img/post-about.jpg"
 ---
 
-{% include multilingual-sel.html %}
+<!-- Language Selector -->
+<select class="sel-lang" onchange="onLanChange(this.options[this.options.selectedIndex].value)">
+    <option value="0" selected> 中文 Chinese </option>
+    <option value="1"> 英文 English </option>
+</select>
 
 <!-- Chinese Version -->
 <div class="zh post-container">
-    {% capture about_zh %}{% include about/zh.md %}{% endcapture %}
-    {{ about_zh | markdownify }}
+
+    <!--copied from markdown -->
+    <blockquote>
+        <p>长恨此身非我有，何时忘却营营。小舟从此逝，书海寄余生。</p>
+    </blockquote>
+
+    <p>Hi，我是<strong>约翰·陶(John Tao)</strong><br>
+        👉南京工程高等职业学校<strong>软件技术专业</strong>大专在读<br>
+        👉苏州大学<strong>法学专业</strong>自考本科在读<br>
+        👉罗伯特·清崎<strong>“富爸爸”课程学员</strong><br>
+        为<strong>NISP-1信息安全专业人员</strong>(证书编号：CNITSEC2021NISPⅠ05014)、<strong>阿里巴巴认证初级数字化会计</strong>师(证书编号：CDA0049622082910007)，曾获得钉钉授予<strong>初级数字化管理师</strong>、<strong>数字化人事管理师等称号</strong>，曾考取<strong>MOS
+            2016认证的Master级、ACCESS数据库微软专业级认证</strong>。2022年12月5日完成<strong>微淼商学院财商训练营课程</strong>。2022年12月8日<strong>完成网易萧先生投资初级课程</strong>。<br>
+        在<strong>知乎（四级博主）</strong>上发表创业、企业管理、信息技术相关文章<strong>55篇</strong>，<strong>CSDN博客网站（共获13枚勋章）</strong>上发表<strong>42篇</strong>文章。<br>
+        跟随宋俊生老师、萧先生<strong>学习过投资、股权顶层设计与股权激励课程，对公司控制权与股权设计、刑法有过较为深入的研究。</strong><br>
+        深入学习过马云、乔布斯、比尔盖茨的<strong>创业成功案例及国际龙头企业的公司架构与股权设计</strong>，<strong>对小型、中型、大型公司的创业失败案例进行过研究</strong>。
+    </p>
+    <p>在工作、学习之余，我还是一个<strong>钓鱼爱好者</strong>，同时也非常<strong>喜欢看书</strong>。</p>
+    <p><strong>主攻方向：</strong>法学、软件工程、投资金融</p>
+
+    <!-- 链接 -->
+    <h5>Talks</h5>
+    <ul>
+        <li><a href="https://github.com">GitHub</a></li>
+        <li><a href="http://jekyll.com.cn/">jekyll</a></li>
+        <li><a href="https://pages.github.com/">GitHub Pages</a></li>
+        <!-- <li><a href="#">#</a></li> -->
+    </ul>
 </div>
 
 <!-- English Version -->
 <div class="en post-container">
-    {% capture about_en %}{% include about/en.md %}{% endcapture %}
-    {{ about_en | markdownify }}
+    <blockquote>
+        <p>Hate this body is not I have, when to forget the camp.The boat died, the book sent the rest of his life.</p>
+    </blockquote>
+
+    <p>Hi，I'm<strong>John Tao</strong><br>
+        👉Studying <strong>software technology</strong>at Nanjing Engineering Vocational College<br>
+        👉at Suzhou University<strong>law</strong>Self-studying<br>
+        👉A student of Robert Toru Kiyosaki's <strong>"Rich Dad Poor Dad" course</strong><br>
+        A certified <strong>NISP-1 information security professional</strong> (certificate number:
+        CNITSEC2021NISPⅠ05014) and an <strong>Alibaba certified junior digital accountant</strong> (certificate number:
+        CDA0049622082910007). I have been granted titles such as <strong>junior digital management expert and digital
+            personnel management expert</strong> by DingTalk. I have also earned <strong>MOS 2016 Master certification
+            and ACCESS database Microsoft professional certification</strong>. I completed the <strong>Financial
+            Literacy Training Camp course</strong> at <strong>Wei Miao Business School</strong> on December 5th, 2022.
+        On December 8th, 2022, I finished the <strong>Xiao Mr. Investment Junior Course at Netease.</strong><br>
+        I have published <strong>55 articles</strong> on entrepreneurship, business management, and information
+        technology on <strong>Zhihu (Level 4 blogger)</strong> and <strong>42 articles</strong> on <strong>CSDN blog
+            website</strong> <strong>(with a total of 13 medals)</strong>. I have <strong>studied investment, equity
+            top-level design, and equity incentive courses under the guidance</strong> of Mr. Song Junsheng and Mr.
+        Xiao, and <strong>conducted in-depth research on company control and equity design and criminal
+            law.</strong><br>
+        I have delved into the <strong>success stories of entrepreneurs</strong> such as Jack Ma, Steve Jobs, and Bill
+        Gates, as well as the <strong>company structure and equity design of international industry leaders, and
+            conducted research on the failed entrepreneurship cases of small, medium, and large companies.</strong><br>
+    </p>
+    <p>In my spare time of work and study, I am a <strong>fishing enthusiast</strong> and also like <strong>reading
+            books</strong> very much.</p>
+    <p><strong>Main interests:</strong> Law, software engineering, investment and finance</p>
+
+
+    <!-- url -->
+    <h5>Talks</h5>
+
+    <ul>
+        <li><a href="https://github.com">GitHub</a></li>
+        <li><a href="http://jekyll.com.cn/">jekyll</a></li>
+        <li><a href="https://pages.github.com/">GitHub Pages</a></li>
+        <!-- <li><a href="#">#</a></li> -->
+    </ul>
 </div>
 
-
-{% if site.disqus_username %}
-<!-- disqus 评论框 start -->
-<div class="comment">
-    <div id="disqus_thread" class="disqus-thread">
-
-    </div>
-</div>
-<!-- disqus 评论框 end -->
-
-<!-- disqus 公共JS代码 start (一个网页只需插入一次) -->
+<!-- Handle Language Change -->
 <script type="text/javascript">
-    /* * * CONFIGURATION VARIABLES * * */
-    var disqus_shortname = "{{site.disqus_username}}";
-    var disqus_identifier = "{{site.disqus_username}}/{{page.url}}";
-    var disqus_url = "{{site.url}}{{page.url}}";
+    // get nodes
+    var $zh = document.querySelector(".zh");
+    var $en = document.querySelector(".en");
+    var $select = document.querySelector("select");
 
-    (function () {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
+    // bind hashchange event
+    window.addEventListener('hashchange', _render);
+
+    // handle render
+    function _render() {
+        var _hash = window.location.hash;
+        // en
+        if (_hash == "#en") {
+            $select.selectedIndex = 1;
+            $en.style.display = "block";
+            $zh.style.display = "none";
+            // zh by default
+        } else {
+            // not trigger onChange, otherwise cause a loop call.
+            $select.selectedIndex = 0;
+            $zh.style.display = "block";
+            $en.style.display = "none";
+        }
+    }
+
+    // handle select change
+    function onLanChange(index) {
+        if (index == 0) {
+            window.location.hash = "#zh"
+        } else {
+            window.location.hash = "#en"
+        }
+    }
+
+    // init
+    _render();
 </script>
-<!-- disqus 公共JS代码 end -->
-{% endif %}
+
+<!-- Gitalk 评论 start  -->
+
+<!-- Link Gitalk 的支持文件  -->
+<link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+<script src="https://unpkg.com/gitalk@latest/dist/gitalk.min.js"></script> 
+<div id="gitalk-container"></div>     <script type="text/javascript">
+    var gitalk = new Gitalk({
+
+    // gitalk的主要参数
+		clientID: `bbbeebb2c21ca285ae17`,
+		clientSecret: `f8f4303d126f5ba753eec1bc6228db915d5d554e`,
+		repo: `Draper-crypto.github.io`,
+		owner: 'Draper-crypto',
+		admin: ['Draper-crypto'],
+		id: 'about',
+    });
+    gitalk.render('gitalk-container');
+</script> 
+<!-- Gitalk end -->

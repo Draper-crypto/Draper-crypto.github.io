@@ -1,102 +1,95 @@
 # Site settings
-title: Hux Blog
-SEOTitle: 黄玄的博客 | Hux Blog
-header-img: img/home-bg.jpg
-email: huxpro@gmail.com
-description: "这里是 @Hux黄玄 的个人博客，与你一起发现更大的世界 | 要做一个有 swag 的程序员"
-keyword: "黄玄, Hux黄玄, Hux, 鬼栈, huxpro, @huxpro, 黄玄的博客, Hux Blog, 博客, 个人网站, 互联网, Web, JavaScript, React, React Native, 前端, 设计"
-url: "https://huangxuan.me" # your host, for absolute URL
-baseurl: "" # for example, '/blog' if your blog hosted on 'host/blog'
+title: Draper-crypto Blog
+SEOTitle: Draper-crypto的博客 | Draper-crypto Blog
+header-img: img/post-bg-index.jpg
+email: wrecking.midnight@gmail.com
+description: ""
+keyword: "Draper-crypto, Draper-crypto Blog, Draper-crypto的博客, iOS, Apple, iPhone"
+url: "https://draper-crypto.github.io/"          # your host, for absolute URL
+baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
+github_repo: "https://github.com/qiubaiying/qiubaiying.github.io.git" # you code repository
 
-# Publish posts or collection documents with a future date.
-future: true
+# Sidebar settings
+sidebar: true                           # 是否开启侧边栏
+sidebar-about-description: "做法治之光"
+sidebar-avatar: /img/about.jpg      # 头像
 
 # SNS settings
 RSS: false
-weibo_username: huxpro
-zhihu_username: huxpro
-github_username: huxpro
-twitter_username: huxpro
-#facebook_username:  huxpro
-#linkedin_username:  firstname-lastname-idxxxx
+zhihu_username:     draper-crypto
+github_username:    Draper-crypto
+csdn_username:   Suprman88
+# twitter_username:   qiubaiying
 
 # Build settings
 # from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
-highlighter: rouge
 permalink: pretty
 paginate: 10
-exclude:
-  [
-    "less",
-    "node_modules",
-    "Gruntfile.js",
-    "package.json",
-    "README.md",
-    "README.zh.md",
-  ]
-anchorjs: true # if you want to customize anchor. check out line:181 of `post.html`
-# If you have timezone issue (e.g. #68) in China, uncomment to use this:
-#timezone: CN
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
+
+
 
 # Gems
 # from PR#40, to support local preview for Jekyll 3.0
-# make sure you have this gem installed
-# `$ gem install jekyll-paginate`
-plugins: [jekyll-paginate]
+gems: [jekyll-paginate]
+
+
+
 
 # Markdown settings
 # replace redcarpet to kramdown,
 # although redcarpet can auto highlight code, the lack of header-id make the catalog impossible, so I switch to kramdown
 # document: http://jekyllrb.com/docs/configuration/#kramdown
 markdown: kramdown
+highlighter: rouge
 kramdown:
-  input: GFM # use Github Flavored Markdown !important
-  syntax_highlighter_opts:
-    span:
-      line_numbers: false
-    block:
-      line_numbers: true
-      start_line: 1
+  input: GFM                            # use Github Flavored Markdown !important
 
-# Disqus settings
-disqus_username: hux
 
-# Netease settings
-netease_comment: false
 
-# Analytics settings
-# Baidu Analytics
-# ba_track_id: [your track id]
+# 评论系统
+# Gitalk
+gitalk:
+enable: true    #是否开启Gitalk评论
+clientID: bbbeebb2c21ca285ae17                           #生成的clientID
+clientSecret: f8f4303d126f5ba753eec1bc6228db915d5d554e    #生成的clientSecret
+repo: Draper-crypto.github.io    #仓库名称
+owner: Draper-crypto    #github用户名
+admin: Draper-crypto
+distractionFreeMode: true #是否启用类似FB的阴影遮罩
 
+# 统计
 # Google Analytics
-ga_track_id: "UA-49627206-1" # Format: UA-xxxxxx-xx
-ga_domain: huangxuan.me
+ga_track_id: 'G-K5QBTBL036'            # Format: UA-xxxxxx-xx
+ga_domain: auto               # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
 
-# Sidebar settings
-sidebar: true # whether or not using Sidebar.
-sidebar-about-description: "要做一个有 swag 的程序员 <br> React Team @ Meta"
-sidebar-avatar: https://github.com/Huxpro.png # use absolute URL, seeing it's used in both `/` and `/about/`
 
-# Featured Tags
-featured-tags: true # whether or not using Feature-Tags
-featured-condition-size: 1 # A tag will be featured if the size of it is more than this condition value
+
+
+
+# Featured Tags   前期1后期>2
+featured-tags: true                     # 是否使用首页标签
+featured-condition-size: 1              # 相同标签数量大于这个数，才会出现在首页
+
+
 
 # Progressive Web Apps
 chrome-tab-theme-color: "#000000"
 service-worker: true
 
-# MathJax rendering for layout:page (e.g. post preview)
-page-mathjax: false
+
 
 # Friends
-friends:
-  [
-    { title: "乱序（Midare）", href: "http://mida.re/" },
-    { title: "Ebn Zhang", href: "https://ebnbin.dev/" },
-    { title: "Kun Qian", href: "http://kunq.me" },
-    { title: "Sherry Woo", href: "https://sherrywoo.me/" },
-    { title: "SmdCn", href: "http://blog.smdcn.net" },
-    { title: "JiyinYiyong", href: "http://tiye.me/" },
-    { title: "DHong Say", href: "http://dhong.co" },
-    { title: "尹峰以为", href: "http://ingf.github.io/" },
-  ]
+friends: [
+    {
+        title: "CSDN",
+        href: "https://blog.csdn.net"
+    },{
+        title: "知乎",
+        href: "https://www.zhihu.com/"
+    },{
+        title: "Apple Developer",
+        href: "https://developer.apple.com/"
+    }
+]
