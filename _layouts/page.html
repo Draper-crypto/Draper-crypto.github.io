@@ -33,7 +33,7 @@ layout: default
                 col-md-10 col-md-offset-1
                 sidebar-container">
 
-            <!-- Featured Tags -->
+            <!-- 文章标签 -->
             {% if site.featured-tags %}
             <section>
                 <!-- no hr -->
@@ -53,7 +53,7 @@ layout: default
             <!-- Friends Blog -->
             {% if site.friends %}
             <hr>
-            <h5>FRIENDS</h5>
+            <h5>友情链接</h5>
             <ul class="list-inline">
                 {% for friend in site.friends %}
                 <li><a href="{{friend.href}}">{{friend.title}}</a></li>
