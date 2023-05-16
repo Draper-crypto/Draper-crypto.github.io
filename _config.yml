@@ -1,5 +1,4 @@
 # Site settings
-# Site settings
 title: Draper-crypto Blog
 SEOTitle: Draper-crypto的博客 | Draper-crypto Blog
 header-img: img/post-bg-index.jpg
@@ -63,9 +62,6 @@ kramdown:
 netease_comment: false
 
 # Analytics settings
-# Baidu Analytics
-# ba_track_id: [your track id]
-
 # Google Analytics
 ga_track_id: "G-K5QBTBL036" # Format: UA-xxxxxx-xx
 ga_domain: auto # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
