@@ -23,26 +23,23 @@ multilingual: true
 
 
 {% if site.disqus_username %}
-<!-- disqus 评论框 start -->
-<div class="comment">
-    <div id="disqus_thread" class="disqus-thread">
 
-    </div>
-</div>
-<!-- disqus 评论框 end -->
+<!-- Gitalk 评论 start  -->
 
-<!-- disqus 公共JS代码 start (一个网页只需插入一次) -->
-<script type="text/javascript">
-    /* * * CONFIGURATION VARIABLES * * */
-    var disqus_shortname = "{{site.disqus_username}}";
-    var disqus_identifier = "{{site.disqus_username}}/{{page.url}}";
-    var disqus_url = "{{site.url}}{{page.url}}";
+<!-- Link Gitalk 的支持文件  -->
+<link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+<script src="https://unpkg.com/gitalk@latest/dist/gitalk.min.js"></script> 
+<div id="gitalk-container"></div>     <script type="text/javascript">
+    var gitalk = new Gitalk({
 
-    (function () {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
-</script>
-<!-- disqus 公共JS代码 end -->
+    // gitalk的主要参数
+		clientID: `bbbeebb2c21ca285ae17`,
+		clientSecret: `f8f4303d126f5ba753eec1bc6228db915d5d554e`,
+		repo: `Draper-crypto.github.io`,
+		owner: 'Draper-crypto',
+		admin: ['Draper-crypto'],
+		id: 'about',
+    });
+    gitalk.render('gitalk-container');
+</script> 
 {% endif %}
