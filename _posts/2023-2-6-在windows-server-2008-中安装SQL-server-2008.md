@@ -4,7 +4,7 @@ title:     在windows server 2008 中安装SQL server 2008
 subtitle:  安装教程
 date:       2023-2-6
 author:     Draper-crypto
-header-img: img/blogimg/post-windows-server-2008.png
+header-img: img/blogimg/post-windows-server-2008.jpg
 catalog: true
 tags:
     - windows server 2008
