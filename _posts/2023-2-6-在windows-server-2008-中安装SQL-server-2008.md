@@ -64,110 +64,35 @@ tags:
 ![img](https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/wps34.jpg) 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-**14．*****\*核对一下需要安装的内容有无缺失，实例ID有无错误，安装位置是否正确，若没有问题则点击“安装”\****
+14．核对一下需要安装的内容有无缺失，实例ID有无错误，安装位置是否正确，若没有问题则点击“安装”
 
 ![img](https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/wps35.jpg) 
 
-**15．*****\*开始程序的安装。\****
+15．开始程序的安装。
 
 ![img](https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/wps36.jpg) 
 
-**16．*****\*等待至进度条走完，安装完成\****
+16．等待至进度条走完，安装完成
 
 ![img](https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/wps37.jpg) 
 
- 
 
- 
+# 三、验证安装：
 
- 
+1.登录SQL Server数据库实例
 
- 
+选择开始菜单－所有程序－Microsoft SQL Server 2008 R2－SQL Server Management Studio。
+![img](https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/wps38.jpg)
 
- 
+2.在打开的“连接到服务器”对话框中，服务器类型选择“数据库引擎”。
+“服务器名称”一栏输入 `<计算机名>\<实例名>`
 
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
-***\*验证安装：\****
-
-***\*1.\*******\*登录SQL Server数据库实例\****
-
-***\*选择开始菜单－所有程序－Microsoft SQL Server 2008 R2－SQL Server Management Studio。\****![img](https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/wps38.jpg)
-
-***\*2.在打开的“连接到服务器”对话框中，服务器类型选择“数据库引擎”。\****
-
-***\*“服务器名称”一栏输入"<计算机名>\<实例名>"\****
-
-***\*身份验证选择“SQLServer身份验证”。选择“SQLServer身份验证”还需要在下面的登录名中填入“sa”，然后在登录密码中输入创建此实例时输入的密码，点“连接”\****
+身份验证选择“SQLServer身份验证”。选择“SQLServer身份验证”还需要在下面的登录名中填入“sa”，然后在登录密码中输入创建此实例时输入的密码，点“连接”
 
 ![img](https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/wps39.jpg) 
 
- 
-
- 
-
- 
-
- 
-
- 
-
-***\*3.连接成功\****
+3.连接成功
 
 ![img](https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/wps40.jpg) 
 
-***\*至此安装过程全部结束\****
+**至此安装过程全部结束**
