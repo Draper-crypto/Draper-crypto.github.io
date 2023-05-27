@@ -76,8 +76,7 @@ tags:
 
 ![img](https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/wps37.jpg) 
 
-
-# 三、验证安装：
+# 三、验证安装
 
 1.登录SQL Server数据库实例
 
