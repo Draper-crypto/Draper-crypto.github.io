@@ -4,7 +4,7 @@ title:      Metasploit渗透测试框架的基本使用
 subtitle:  学习笔记
 date:       2023-4-8
 author:     Draper-crypto
-header-img: img/blogimg/post-bg-hacker.jpg
+header-img: img/blogimg/post-windows-server-2008.jpg
 catalog: true
 tags:
     - Metasploit
