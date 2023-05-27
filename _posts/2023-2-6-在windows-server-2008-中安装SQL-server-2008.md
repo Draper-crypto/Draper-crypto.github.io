@@ -28,7 +28,7 @@ tags:
 ![img](https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/wps22.jpg) 
 
 3．安装密钥：
-**GYF3T-H2V88-GRPPH-HWRJP-QRTYB\**
+**GYF3T-H2V88-GRPPH-HWRJP-QRTYB**
 ![img](https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/wps23.jpg)
 
 4．在“许可条款”中选择“我接受许可条款”，然后“下一步”
