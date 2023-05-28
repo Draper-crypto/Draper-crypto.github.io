@@ -17,7 +17,7 @@ tags:
 2. 下载`GitHub Desktop`：[下载链接](https://central.github.com/deployments/desktop/desktop/latest/win32)（可使用`git`代替）
 3. 模板选择网站：
    - [jekyllthemes.org](http://jekyllthemes.org/)
-   - [jekythemes.net](https://www.jekyllthemes.net/)
+   - [gohugo](https://themes.gohugo.io/)
    - [mademistakes](https://mademistakes.com/work/jekyll-themes/) 
 
 # 二、快速入门
