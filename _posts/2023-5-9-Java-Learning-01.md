@@ -118,122 +118,119 @@ Java语言属于编译型与解释型的开发语言，对于Java语言，如果
 
 ## 2.下载 Java 8
 
-（1）首先打开ORACLE的官网 
+（1）首先打开ORACLE的官网
 
-![img](https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/202305101105751.png)
+![img](https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/wps1.jpg) 
 
-（2）选择Products(产品)下的Java产品 
+（2）选择Products(产品)下的Java产品
 
-![img](https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/202305101105809.png)
+![img](https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/wps2.jpg) 
 
-（3）来到这个界面，选择Download Java（下载Java） 
+（3）来到这个界面，选择Download Java（下载Java）
 
-![img](https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/202305101105833.png)
+![img](https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/wps3.jpg) 
 
-（4）来到这个界面后，往下翻 
+（4）来到这个界面后，往下翻
 
-![img](https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/202305101105826.png)
+![img](https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/wps4.jpg) 
 
-![img](https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/202305101105808.png)
+ 
+
+![img](https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/wps5.jpg) 
 
 （5）找到上图所示位置后看到下面，依照您现在使用的操作系统版本，点击后面的蓝色链接进行下载
 
-![img](https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/202305101105704.png)
+![img](https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/wps6.jpg) 
 
-（6）同意条款，点击下方按钮直接开始下载（由于作者已经提前注册号oracl的账户，此处不再赘述） 
+（6）同意条款，点击下方按钮直接开始下载（由于作者已经提前注册号oracl的账户，此处不再赘述）
 
-![img](https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/202305101105376.png)
+![img](https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/wps7.jpg) 
 
-（7）下载成功后安装包如下图 
+（7）下载成功后下图
 
-![img](https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/202305101105380.png)
+![img](https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/wps8.jpg) 
+
 
 ## 3. Java8（JDK）安装
 
-（1）双击打开安装文件，选择下一步 
+（1）双击打开安装文件，选择下一步
 
-![img](https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/202305101105552.png)
+![img](https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/wps9.jpg) 
 
-（2）保持默认，下一步。 
+（2）保持默认，下一步。
 
-**注意：建议安装路径保持默认，若必须要改，请保证整个Java安装路径没有中文** 
+*注意：建议安装路径保持默认，若必须要改，请保证整个Java安装路径没有中文*
 
-![img](https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/202305101105468.png)
+![img](https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/wps10.jpg) 
 
-（3）稍等片刻，弹出安装JRE的界面，依旧保持默认，下一步。 
+（3）稍等片刻，弹出安装JRE的界面，依旧保持默认，下一步。
 
-![img](https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/202305101105564.png)
+![img](https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/wps11.jpg) 
 
-（4）稍等片刻，安装ing 
+（4）稍等片刻，安装中
 
-![img](https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/202305101105616.png)
+![img](https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/wps12.jpg) 
 
-（5）显示该界面表示安装成功。 
+（5）显示该界面表示安装成功。
 
-![img](https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/202305101105039.png)
+![img](https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/wps13.jpg) 
 
-（6）检查 打开路径：C:\Program Files\Java 
+（6）检查
 
-![img](https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/202305101105036.png)
+打开路径：`C:\Program Files\Java`
+
+![img](https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/wps14.jpg) 
 
 
 
 ## 3. JDK环境变量配置
 
-（1）右键此电脑，选择属性 
+（1）右键此电脑，选择属性
 
-![img](https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/202305101105242.png)
+![img](https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/wps15.png) 
 
-（2）打开属性后，选择左边栏目中的“高级系统设置” 
+（2）打开属性后，选择左边栏目中的“高级系统设置”
 
-![img](https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/202305101105251.png)
+![img](https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/wps16.jpg) 
 
-（3）在弹出窗口中选择“环境变量” 
+（3）在弹出窗口中选择“环境变量”
 
-![img](https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/202305101105239.png)
+![img](https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/wps17.jpg) 
 
- （4）即可配置“用户变量”及“系统变量” 
+（4）即可配置“用户变量”及“系统变量”
 
-![img](https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/202305101105266.png)
+![img](https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/wps18.jpg) 
 
-（5）这里我们配置的是系统变量，选中“Path“，双击打开path的环境变量编辑
+（5）这里我们配置的是系统变量，选中“Path”，双击打开path的环境变量编辑
 
-![img](https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/202305101105587.png)
+![img](https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/wps19.jpg)![img](https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/wps20.jpg) 
 
-![img](https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/202305101105069.png)
+（6）首先配置JAVA_HOME
 
+- 复制Java JDK的根目录，作者这里的是`C:\Program Files\Java\jdk1.8.0_341`
 
+![img](https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/wps21.jpg) 
 
-（7）首先配置JAVA_HOME 
+- 创建系统变量，如下图所示
 
-- 复制Java JDK的根目录，作者这里的是C:\Program Files\Java\jdk1.8.0_341 
+*注意：大小写保持一致，路径为刚刚复制的jdk根目录*
 
-![img](https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/202305101105116.png)
+![img](https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/wps22.jpg) 
 
-- 创建系统变量，如下图所示 
+（7）双击Path进入编辑，新建环境变量‘%JAVA_HOME%\bin’
 
-**注意：大小写保持一致，路径为刚刚复制的jdk根目录** 
+![img](https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/wps23.jpg) 
 
-![img](https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/202305101105157.png)
+（8）将我们新建好的变量上移至最上面（表示当有相同的环境变量时，优先使用我们安装的环境变量）
 
-（8）双击Path进入编辑，新建环境变量 %JAVA_HOME%\bin 
+![img](https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/wps24.jpg) 
 
-![img](https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/202305101105149.png)
+（9）两次点击确定退出。
 
- （9）将我们新建好的变量上移至最上面（表示当有相同的\相似的环境变量时，优先使用我们安装的环境变量） 
+（10）打开命令提示符检查是否配置成功
 
-![img](https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/202305101105144.png)
+输入命令：`java -version`
 
- （10）两次点击确定退出。 
-
-（11）打开命令提示符检查是否配置成功 
-
-输入命令：
-
-```
-java -version
-```
-
-![img](https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/202305101105254.png)
+![img](https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/wps25.jpg) 
 
 若如上图所示，则代表配置成功,若显示“不是内部或外部命令，也不是可运行的程序或批处理文件。“则表示未成功，将已配置好的删掉，重复上述操作。
