@@ -1,0 +1,289 @@
+---
+layout:     post
+title:      搭建Github Page完全手册
+subtitle:   技术博文
+date:       2023-5-15
+author:     Draper-crypto
+header-img: img/blogimg/post-bg-github-cup.jpg
+catalog: 	 true
+tags:
+    - 网站搭建
+    - Github
+---
+
+# 一、前期准备
+
+1. 注册`Github`账号（必备）
+2. 下载`GitHub Desktop`：[下载链接](https://central.github.com/deployments/desktop/desktop/latest/win32)（可使用`git`代替）
+3. 模板选择网站：
+   - [jekyllthemes.org](http://jekyllthemes.org/)
+   - [gohugo](https://themes.gohugo.io/)
+   - [mademistakes](https://mademistakes.com/work/jekyll-themes/) 
+
+# 二、快速入门
+
+## 1.模板参考
+
+- 作者使用的模板来源：https://github.com/qiubaiying/qiubaiying.github.io
+
+- 零基础的朋友可以直接拉取他的仓库
+
+- 搭建方法参考文章：[搭建方法参考](https://qiubaiying.github.io/2017/02/06/%E5%BF%AB%E9%80%9F%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/)
+
+- 其他好看的模板：[模板一](https://github.com/jeffreytse/jekyll-theme-yat/tree/v1.9.0)&emsp;&emsp;[模板二](https://github.com/kitian616/jekyll-TeXt-theme)
+
+## 2.拉取仓库
+
+（1）打开上文模板链接
+
+![image-20230514224926314](https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/image-20230514224926314.png)
+
+（2）转跳到如下界面
+
+![image-20230514225022141](https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/image-20230514225022141.png)
+
+（3）修改以下内容
+
+```
+Repository name = 存储库名称 = 你想给他取的存储库名字
+仓库名称格式：你的Github账号名.github.io
+```
+
+>注意：这里的名字就是访问他的网址
+
+![image-20230514225222001](https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/image-20230514225222001.png)
+
+
+![image-20230514225428887](https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/image-20230514225428887.png)
+
+（4）修改仓库名
+
+> 如果您在上部部分仓库名修改有误、不正确、报404错误请参考此章节
+
+修改格式：
+```
+你的Github账号名.github.io，然后 Rename
+```
+
+![image-20230514230523280](https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/image-20230514230523280.png)
+
+## 3.测试访问
+
+按如上步骤来来应显示如图所示
+
+![image-20230514232212722](https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/image-20230514232212722.png)
+
+# 三、进阶步骤
+
+> 推荐使用`GitHub Desktop`将仓库拉取到本地，然后使用`vscode`编辑
+
+## 1.增加左侧栏目中原作者未提供的转跳链接
+
+（1）打开`_config.yml`
+
+找到`SNS settings`部分
+
+```
+# SNS settings
+RSS: false
+zhihu_username:     你的用户名
+github_username:    你的用户名
+csdn_username:   你的用户名
+```
+
+原作者并未提供csdn或其他链接的修改代码
+
+（2）此处添加你想要的链接的变量名
+
+例如CSDN的变量名为：`csdn_username`
+![image-20230514233259668](https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/image-20230514233259668.png)
+
+(3)添加完成后修改
+
+`\_layouts\page.html`中
+
+修改为：
+
+```html
+{% if site.csdn_username %}
+	<li>
+		<a target="_blank" href="https://blog.csdn.net/{{ site.csdn_username }}">
+			<span class="fa-stack fa-lg">
+				<i class="fa fa-circle fa-stack-2x"></i>
+				<i class="fa fa-stack-1x fa-inverse">C</i>
+			</span>
+	 	</a>
+	</li>
+{% endif %}
+```
+
+![image-20230514233912169](https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/image-20230514233912169.png)
+
+(4)刷新测试
+
+正常应为下图所示
+
+![image-20230514234459795](https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/image-20230514234459795.png)
+
+## 2.更改域名
+
+（1）域名购买方推荐使用
+
+- [godaddy](https://www.godaddy.com/zh-sg)
+
+- [阿里云-万网](https://wanwang.aliyun.com/)
+
+（2）作者使用的是阿里云万网域名
+
+可以看到.top域的域名非常的便宜（推荐使用）
+
+![image-20230514234718681](https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/image-20230514234718681.png)
+
+（3）配置域名解析
+
+- 打开域名管理界面
+
+![image-20230515110945863](https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/202305151109028.png)
+
+- 点击`解析`
+
+![image-20230515085950949](https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/202305150859099.png)
+
+- 添加解析记录
+
+> 可按需添加，这里的IPv6地址可以使用cmd直接ping你的博客地址得出
+
+| 主机记录 | 记录类型 | 记录值                |
+| -------- | -------- | --------------------- |
+| @        | A        | 185.199.111.153       |
+| @        | A        | 185.199.110.153       |
+| @        | A        | 185.199.109.153       |
+| @        | A        | 185.199.108.153       |
+| @        | AAAA     | 2606:50c0:8003::153   |
+| @        | AAAA     | 2606:50c0:8002::153   |
+| @        | AAAA     | 2606:50c0:8001::153   |
+| @        | AAAA     | 2606:50c0:8000::153   |
+| www      | CNAME    | youusername.github.io |
+
+配置具体如图所示
+
+![image-20230515112020649](https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/202305151120809.png)
+
+（4）购买完成并配置完域名转发后，回到Github已经可以访问的库中，点击setting
+
+- 选择Pages选项
+
+![image-20230514235045476](https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/image-20230514235045476.png)
+
+- 填入购买的域名
+
+![image-20230515210737322](https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/image-20230515210737322.png)
+
+- 出现这个标志表示域名添加成功
+
+
+![image-20230515112250419](https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/202305151122506.png)
+
+- 回到仓库界面多出CNAME文件，文件内存放刚刚添加的域名
+>注意：若没有自动新增该文件，则需要自行手动增加
+
+![image-20230515112526748](https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/202305151125899.png)
+
+![image-20230515112707261](https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/202305151127375.png)
+
+##  3.添加SSL证书实现https访问
+
+> 注意：到该步骤前，请确定您的网站可以通过访问域名正常转跳
+
+（1）访问https://www.cloudflare.com/zh-cn/，注册用户
+
+![image-20230515113344002](https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/202305151133135.png)
+
+（2）使用已注册完成的账号登录，来到这个界面
+
+![image-20230515113457735](https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/202305151134857.png)
+
+（3）点击添加站点
+
+![image-20230515113534788](https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/202305151135924.png)
+
+（4）输入站点网址
+
+![image-20230515113650281](https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/202305151136407.png)
+
+（5）选择免费服务
+
+![image-20230515113801562](https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/202305151138676.png)
+
+（6）添加DNS记录
+
+![image-20230515113950408](https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/202305151139555.png)
+
+（7）cloudflare会扫描出当前域名的A、AAAA、CNAME记录，并显示在下面
+
+> 由于使用演示案例的域名配置所以无记录显示
+
+![image-20230515160803824](https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/image-20230515160803824.png)
+
+（8）指引会告诉您删除阿里云分配的服务器添加cloudflare给出的服务器
+
+![image-20230515161211685](https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/image-20230515161211685.png)
+
+（9）更改cloudflare给出的服务器
+
+- 打开域名控制台
+
+![image-20230515161815472](https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/image-20230515161815472.png)
+
+- 点击域名后的`管理`按钮
+
+![image-20230515162012902](https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/image-20230515162012902.png)
+
+- 管理界面点击修改DNS服务
+
+![image-20230515162213601](https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/image-20230515162213601.png)
+
+
+- 点击修改DNS服务器
+
+![image-20230515162336089](https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/image-20230515162336089.png)
+
+- 修改成cloudflare提供的DNS服务器,点击确认。
+
+```
+dante.ns.cloudflare.com
+stella.ns.cloudflare.com
+```
+
+![image-20230515162649278](https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/image-20230515162649278.png)
+
+- 修改成功
+
+![image-20230515163004488](https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/image-20230515163004488.png)
+
+（10）回到cloudflare应显示如下界面，则代表修改成功
+
+![image-20230515163148094](https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/image-20230515163148094.png)
+
+（11）点击SSL设置
+
+![image-20230515163307257](https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/image-20230515163307257.png)
+
+（12）默认应该为如图所示，若不是，则选择第三个选项
+
+> 注意：
+>
+> 1. 中文为`完全`，英文为`Full`
+> 2. 更改不是立即生效，需要稍等一会
+
+![image-20230515163433804](https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/image-20230515163433804.png)
+
+（13）完成上述步骤后回到GitHub，打开强制使用https的开关，以增强安全性
+
+![image-20230515163759242](https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/image-20230515163759242.png)
+
+![image-20230515163818592](https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/image-20230515163818592.png)
+
+（14）至此SSL证书配置完毕，可以使用https进行访问
+
+![image-20230515163933714](https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/image-20230515163933714.png)
