@@ -4,7 +4,7 @@ title:     竞赛开发环境配置
 subtitle:  Java8+MySQL+IDEA+Navicat16
 date:       2023-6-1
 author:     Draper-crypto
-header-img: img/blogimg/post-bg-infinity.jpg
+header-img: img/blogimg/post-bg-rwd.jpg
 catalog: true
 tags:
     - Java
