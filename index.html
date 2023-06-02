@@ -2,7 +2,11 @@
 layout: page
 description: "「Change the world」"
 ---
-
+  <!-- 在正文开头添加网易云音乐插件 -->
+  {% if page.music-id %}
+    {% include cloud-music.html %}
+  {% endif %} 
+  {{ content }}
 {% for post in paginator.posts %}
 <div class="post-preview">
     <a href="{{ post.url | prepend: site.baseurl }}">
