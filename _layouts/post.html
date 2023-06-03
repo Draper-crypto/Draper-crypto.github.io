@@ -24,10 +24,13 @@ layout: default
                 {% if page.multilingual %}
                 {% include multilingual-sel.html %}
                 {% endif %}
-                <!-- 在正文开头添加网易云音乐插件 -->
+                
+                <!-- 在正文开头添加网易云音乐插件 --><!--by draper-crypto-->
+                <!-- cloud music -->
                 {% if page.music-id %}
                 {% include cloud-music.html %}
                 {% endif %}
+                <!-- cloud music end -->
 
                 {{ content }}
 
