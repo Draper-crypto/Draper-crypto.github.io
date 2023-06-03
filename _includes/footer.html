@@ -21,23 +21,33 @@
 </footer>
 
 <!-- jQuery -->
-<script src="{{ "/js/jquery.min.js " | prepend: site.baseurl }}"></script>
+<script src="{{ " /js/jquery.min.js " | prepend: site.baseurl }}"></script>
 
 <!-- Bootstrap Core JavaScript -->
 <!-- Currently, only navbar scroll-down effect at desktop still depends on this -->
-<script src="{{ "/js/bootstrap.min.js " | prepend: site.baseurl }}"></script>
+<script src="{{ " /js/bootstrap.min.js " | prepend: site.baseurl }}"></script>
 
 <!-- Custom Theme JavaScript -->
-<script src="{{ "/js/hux-blog.min.js " | prepend: site.baseurl }}"></script>
+<script src="{{ " /js/hux-blog.min.js " | prepend: site.baseurl }}"></script>
 
 <!-- Simple Jekyll Search -->
-<script src="{{ "/js/simple-jekyll-search.min.js" | prepend: site.baseurl }}"></script>
+<script src="{{ " /js/simple-jekyll-search.min.js" | prepend: site.baseurl }}"></script>
 
 <!-- Service Worker -->
 {% if site.service-worker %}
-<script src="{{ "/js/snackbar.js " | prepend: site.baseurl }}"></script>
-<script src="{{ "/js/sw-registration.js " | prepend: site.baseurl }}"></script>
+<script src="{{ " /js/snackbar.js " | prepend: site.baseurl }}"></script>
+<script src="{{ " /js/sw-registration.js " | prepend: site.baseurl }}"></script>
 {% endif %}
+
+<!-- 添加站点访客数及文章浏览量 -->
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js">
+</script>
+<span id="busuanzi_container_site_pv">
+    本站总访问量<span id="busuanzi_value_site_pv"></span>次
+</span>
+<span id="busuanzi_container_site_uv">
+    本站访客数<span id="busuanzi_value_site_uv"></span>人次
+</span>
 
 <!-- async load function -->
 <script>
