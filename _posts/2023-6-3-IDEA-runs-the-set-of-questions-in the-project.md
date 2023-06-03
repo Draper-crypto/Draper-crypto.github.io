@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:     IDEA跑项目中的问题集
+title:      IDEA跑项目中的问题集
 date:       2023-6-3
 author:     Draper-crypto
 header-img: img/blogimg/post-Java-alibaba.jpg
