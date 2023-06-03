@@ -1,0 +1,66 @@
+---
+layout:     post
+title:     IDEA跑项目中的问题集
+subtitle:  学习笔记
+date:       2023-6-3
+author:     Draper-crypto
+header-img: img/blogimg/post-Java-alibaba.jpg
+catalog: true
+tags:
+    - Java
+    - IDEA
+---
+
+
+
+# IDEA卡在”正在解析Maven依赖项“的解决方法
+
+> 修改Maven镜像，修改Maven镜像为阿里云镜像
+
+1.文件路径
+
+`C:\Program Files\JetBrains\IntelliJ IDEA 2022.2.3\plugins`
+
+2.因为我使用的是InteliJ idea 自带的Maven，所以直接去idea 插件安装目录，找到Maven插件，找到setting.xml 文件
+
+位置：`C:\Program Files\JetBrains\IntelliJ IDEA 2022.2.3\plugins\maven\lib\maven3\conf`
+
+![image-20230601221907238](https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/image-20230601221907238.png)
+
+![image-20230601221947727](https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/image-20230601221947727.png)
+
+3.添加配置信息
+
+```xaml
+ <mirror>  
+  <id>alimaven</id>  
+  <name>aliyun maven</name>  
+  <url>https://maven.aliyun.com/nexus/content/groups/public/</url>  
+  <mirrorOf>central</mirrorOf>
+ </mirror>
+```
+![image-20230601222017770](https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/image-20230601222017770.png)
+
+**问题解决**
+
+
+
+------
+
+# 实体类@Column，@Entity和@Table注解爆红
+
+![image-20230601222326384](https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/image-20230601222326384.png)
+
+**原因：**对应的包没有导入
+
+**解决方法：**
+
+鼠标悬停在爆红的类上，点击如图所示
+
+![image-20230601224118944](https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/image-20230601224118944.png)
+
+等待类导入
+
+![image-20230601224142700](https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/image-20230601224142700.png)
+
+**问题解决**
