@@ -5,6 +5,10 @@ description: "「用良知驾驭我们之所学 而不因所学蒙蔽了良知�
 header-img: "img/bg-material.jpg"
 ---
 
+<!--
+Credits: this page shamelessly borrowed a lot from:
+https://github.com/kitian616/jekyll-TeXt-theme
+-->
 <!-- Page Header -->
 {% include intro-header.html type='page' short=true %}
 
@@ -40,9 +44,6 @@ header-img: "img/bg-material.jpg"
 
 
 				{%- for _article in _sorted_list -%}
-				{% comment %} 显示文章发布日期 {% endcomment %}
-				<p class="post-meta">{{ _article.date | date: "%Y-%m-%d" }}</p>
-				{% endfor %}
 				{%- assign _tags = '' -%}
 				{%- for _tag in _article.tags -%}
 				{%- assign _tag_encode = _tag | strip | url_encode -%}
