@@ -1,0 +1,567 @@
+---
+layout:     post
+title:     Java初学实践03
+subtitle:  使用spring boot进行简单的用户管理
+date:       2023-6-4
+author:     Draper-crypto
+header-img: img/blogimg/post-Java-alibaba.jpg
+catalog: true
+tags:
+    - Java
+    - 学习笔记
+---
+
+# 一、任务说明
+
+1. 使用 Java 编写一个简单的用户管理系统
+2. 使用spring boot框架
+3. 可以连接到 MySQL 数据库，并支持以下功能:
+   - 增加用户记录
+   - 删除用户记录
+   - 修改用户记录
+   - 查询/显示用户记录
+
+
+
+------
+
+# 二、代码实现
+
+## 1.目录样式
+
+![image-20230604210856586](https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/image-20230604210856586.png)
+
+
+
+## 2.源代码
+
+- `UserController.java`
+
+```java
+package com.example.demo;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.jdbc.core.JdbcTemplate;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.*;
+
+import java.util.List;
+import java.util.Map;
+
+@Controller
+public class UserController {
+
+    private final JdbcTemplate jdbcTemplate;
+
+    public UserController(JdbcTemplate jdbcTemplate) {
+        this.jdbcTemplate = jdbcTemplate;
+    }
+
+    @GetMapping("/")
+    public String index(Model model) {
+        List<Map<String, Object>> users = jdbcTemplate.queryForList("SELECT * FROM users");
+        model.addAttribute("users", users);
+        return "index";
+    }
+
+    @GetMapping("/create")
+    public String createForm() {
+        return "create";
+    }
+
+    @PostMapping("/create")
+    public String create(@RequestParam String name, @RequestParam String email) {
+        jdbcTemplate.update("INSERT INTO users (name, email) VALUES (?, ?)", name, email);
+        return "redirect:/";
+    }
+
+    @GetMapping("/edit/{id}")
+    public String editForm(@PathVariable Long id, Model model) {
+        Map<String, Object> user = jdbcTemplate.queryForMap("SELECT * FROM users WHERE id = ?", id);
+        model.addAttribute("user", user);
+        return "edit";
+    }
+
+    @PostMapping("/edit/{id}")
+    public String edit(@PathVariable Long id, @RequestParam String name, @RequestParam String email) {
+        jdbcTemplate.update("UPDATE users SET name = ?, email = ? WHERE id = ?", name, email, id);
+        return "redirect:/";
+    }
+
+    @GetMapping("/delete/{id}")
+    public String delete(@PathVariable Long id) {
+        jdbcTemplate.update("DELETE FROM users WHERE id = ?", id);
+        return "redirect:/";
+    }
+
+}
+```
+- `index.html`
+
+```html
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <title>编辑用户</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+        }
+
+        form {
+            width: 50%;
+            margin: 50px auto;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            padding: 20px;
+        }
+
+        label {
+            display: inline-block;
+            width: 100px;
+            margin-bottom: 10px;
+        }
+
+        input[type="text"] {
+            display: inline-block;
+            width: calc(100% - 110px);
+            padding: 5px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            margin-bottom: 10px;
+        }
+
+        input[type="submit"] {
+            display: block;
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+
+            border-radius< !DOCTYPE html><html lang="zh"><head><meta charset="UTF-8"><title>用户管理</title><style>body {
+                font-family: Arial, sans-serif;
+                background-color: #f5f5f5;
+            }
+
+            table {
+                border-collapse: collapse;
+                width: 80%;
+                margin: 50px auto;
+                background-color: white;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            }
+
+            th,
+            td {
+                text-align: left;
+                padding: 8px;
+            }
+
+            th {
+                background-color: #4CAF50;
+                color: white;
+            }
+
+            tr:nth-child(even) {
+                background-color: #f2f2f2;
+            }
+
+            tr:hover {
+                background-color: #ddd;
+            }
+
+            h1 {
+                text-align: center;
+                margin-top: 30px;
+            }
+
+            a.button {
+                display: inline-block;
+                background-color: #4CAF50;
+                color: white;
+                padding: 10px 20px;
+                text-align: center;
+                text-decoration: none;
+                border-radius: 5px;
+                margin: 10px;
+            }
+
+            a.button:hover {
+                background-color: #3e8e41;
+            }
+    </style>
+</head>
+
+<body>
+    <h1>用户管理</h1>
+    <table>
+        <tr>
+            <th>ID</th>
+            <th>姓名</th>
+            <th>邮箱</th>
+            <th>操作</th>
+        </tr>
+        <tr th:each="user : ${users}">
+            <td th:text="${user.id}"></td>
+            <td th:text="${user.name}"></td>
+            <td th:text="${user.email}"></td>
+            <td>
+                <a class="button" th:href="@{/edit/{id}(id=${user.id})}">编辑</a>
+                <a class="button" th:href="@{/delete/{id}(id=${user.id})}">删除</a>
+            </td>
+        </tr>
+    </table>
+    <div style="text-align: center;">
+        <a class="button" th:href="@{/create}">添加用户</a>
+    </div>
+</body>
+
+</html>
+: 5px;
+margin-top: 20px;
+}
+
+input[type="submit"]:hover {
+background-color: #3e8e41;
+}
+
+h1 {
+text-align: center;
+margin-top: 30px;
+}
+</style>
+</head>
+
+<body>
+    <h1>编辑用户</h1>
+    <form method="post" th:action="@{/edit/{id}(id=${user.id})}">
+        <input type="hidden" name="id" th:value="${user.id}">
+        <label>姓名：</label>
+        <input type="text" name="name" th:value="${user.name}"><br>
+        <label>邮箱：</label>
+        <input type="text" name="email" th:value="${user.email}"><br>
+        <input type="submit" value="保存">
+    </form>
+    </form>
+</body>
+
+</html>
+```
+
+- `create.html`
+
+```html
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <title>添加用户</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+        }
+
+        form {
+            width: 50%;
+            margin: 50px auto;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            padding: 20px;
+        }
+
+        label {
+            display: inline-block;
+            width: 100px;
+            margin-bottom: 10px;
+        }
+
+        input[type="text"] {
+            display: inline-block;
+            width: calc(100% - 110px);
+            padding: 5px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            margin-bottom: 10px;
+        }
+
+        input[type="submit"] {
+            display: block;
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #3e8e41;
+        }
+
+        h1 {
+            text-align: center;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>添加用户</h1>
+    <form method="post" action="/create">
+        <label>姓名：</label>
+        <input type="text" name="name"><br>
+        <label>邮箱：</label>
+        <input type="text" name="email"><br>
+        <input type="submit" value="提交">
+    </form>
+</body>
+
+</html>
+```
+
+- `edit.html`
+
+```html
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <title>编辑用户</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+        }
+
+        form {
+            width: 50%;
+            margin: 50px auto;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            padding: 20px;
+        }
+
+        label {
+            display: inline-block;
+            width: 100px;
+            margin-bottom: 10px;
+        }
+
+        input[type="text"] {
+            display: inline-block;
+            width: calc(100% - 110px);
+            padding: 5px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            margin-bottom: 10px;
+        }
+
+        input[type="submit"] {
+            display: block;
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #3e8e41;
+        }
+
+        h1 {
+            text-align: center;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>编辑用户</h1>
+    <form method="post" th:action="@{/edit/{id}(id=${user.id})}">
+        <input type="hidden" name="id" th:value="${user.id}">
+        <label>姓名：</label>
+        <input type="text" name="name" th:value="${user.name}"><br>
+        <label>邮箱：</label>
+        <input type="text" name="email" th:value="${user.email}"><br>
+        <input type="submit" value="保存">
+    </form>
+    </form>
+</body>
+
+</html>
+```
+
+## 3.运行截图
+
+（1）增加学生记录
+
+![image-20230604211516344](https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/image-20230604211516344.png)
+
+![image-20230604211528634](https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/image-20230604211528634.png)
+
+（2）编辑用户
+
+![image-20230604211606601](https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/image-20230604211606601.png)
+
+![image-20230604211614390](https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/image-20230604211614390.png)
+
+（3）删除用户
+
+![image-20230604211614390](https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/image-20230604211614390.png)
+
+![image-20230604211649384](https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/image-20230604211649384.png)
+
+（4）显示库中所有用户
+
+![image-20230604211728875](https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/image-20230604211728875.png)
+
+
+
+--------
+
+# 三、代码解释
+
+## 1.第一部分
+
+```java
+package com.example.demo;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.jdbc.core.JdbcTemplate;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.*;
+
+import java.util.List;
+import java.util.Map;
+
+```
+
+这是一个 Java 类，用于声明包和导入所需的类。在这个类中，我们导入了 Spring 框架中的一些类，例如 `JdbcTemplate`、`Controller`、`Model`、`RequestMapping` 等。
+
+
+
+## 2.第二部分
+
+```java
+@Controller
+public class UserController {
+```
+
+这个类被标记为 `@Controller`，表示它是一个处理 HTTP 请求的控制器。
+
+
+
+## 3.第三部分
+
+```java
+   private final JdbcTemplate jdbcTemplate;
+
+    public UserController(JdbcTemplate jdbcTemplate) {
+        this.jdbcTemplate = jdbcTemplate;
+    }
+```
+
+这个类中有一个 `JdbcTemplate` 类型的私有变量 `jdbcTemplate`，它的值在构造函数中被注入。`JdbcTemplate` 是 Spring 框架提供的一个简单的 `JDBC `封装类，它可以方便地执行 SQL 查询和更新操作。
+
+
+
+## 4.第四部分
+
+```java
+  @GetMapping("/")
+    public String index(Model model) {
+        List<Map<String, Object>> users = jdbcTemplate.queryForList("SELECT * FROM users");
+        model.addAttribute("users", users);
+        return "index";
+    }
+```
+
+这是一个 HTTP GET 请求处理方法，它处理根路径的请求（`/`）。它使用 `jdbcTemplate` 执行了一个 SQL 查询，查询所有用户的信息，并将查询结果添加到 `Model` 对象中。最后，它返回一个字符串 `"index"`，表示要渲染名为 `index.html` 的模板。
+
+
+
+## 5.第五部分
+
+```java
+   @GetMapping("/create")
+    public String createForm() {
+        return "create";
+    }
+
+    @PostMapping("/create")
+    public String create(@RequestParam String name, @RequestParam String email) {
+        jdbcTemplate.update("INSERT INTO users (name, email) VALUES (?, ?)", name, email);
+        return "redirect:/";
+    }
+```
+
+这是 HTTP GET 和 POST 请求处理方法，用于创建新用户。`/create` 路径的 GET 请求处理方法返回一个字符串 `"create"`，表示要渲染名为 `create.html` 的模板。`/create` 路径的 POST 请求处理方法获取提交的表单数据，并使用 `jdbcTemplate` 执行 SQL 插入操作，将新用户的信息插入到数据库中。最后，它返回一个重定向到根路径的字符串 `"redirect:/"`。
+
+
+
+## 6.第六部分
+
+```java
+  @GetMapping("/edit/{id}")
+    public String editForm(@PathVariable Long id, Model model) {
+        Map<String, Object> user = jdbcTemplate.queryForMap("SELECT * FROM users WHERE id = ?", id);
+        model.addAttribute("user", user);
+        return "edit";
+    }
+
+    @PostMapping("/edit/{id}")
+    public String edit(@PathVariable Long id, @RequestParam String name, @RequestParam String email) {
+        jdbcTemplate.update("UPDATE users SET name = ?, email = ? WHERE id = ?", name, email, id);
+        return "redirect:/";
+    }
+```
+
+这是 HTTP GET 和 POST 请求处理方法，用于编辑用户信息。`/edit/{id}` 路径的 GET 请求处理方法获取指定用户的信息，并将其添加到 `Model`对象中，然后返回一个字符串`"edit"`，表示要渲染名为`edit.html`的模板。`/edit/{id}`路径的 POST 请求处理方法获取表单数据，并使用`jdbcTemplate`执行 SQL 更新操作，将指定用户的信息更新到数据库中。最后，它返回一个重定向到根路径的字符串`"redirect:/"`。
+
+
+
+## 7.第七部分
+
+```java
+   @GetMapping("/delete/{id}")
+    public String delete(@PathVariable Long id) {
+        jdbcTemplate.update("DELETE FROM users WHERE id = ?", id);
+        return "redirect:/";
+    }
+```
+
+这是一个 HTTP GET 请求处理方法，用于删除用户信息。`/delete/{id}` 路径的 GET 请求处理方法执行一个 SQL 删除操作，将指定用户的信息从数据库中删除。最后，它返回一个重定向到根路径的字符串 `"redirect:/"`。
+
+
+
+-----
+
+# 四、总结
+
+这个控制器类处理 HTTP 请求和数据库操作，包括查询、插入、更新和删除用户信息。使用 Spring 框架提供的 `JdbcTemplate` 类来执行 SQL 操作，并使用 `Model` 对象来传递数据到模板中。
+
+虽然实现了基本功能，但是代码中还存在一些问题，比如没有对输入数据没有做限制，没有搜索用户的功能等，还有待完善和提高。
+
+
+
+-------
+
+# 国内平台创作链接
+
+👉知乎：[点击转跳](https://zhuanlan.zhihu.com/p/634621304)
+
+👉CSDN：[点击转跳](http://t.csdn.cn/aOssE)
+
