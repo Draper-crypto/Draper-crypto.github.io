@@ -4,6 +4,7 @@ title:      Java面向对象编程
 subtitle:  学习笔记
 date:       2000-1-1
 author:     Draper-crypto
+category:   Comic
 header-img: img/blogimg/post-Java-alibaba.jpg
 catalog: true
 music-id: 1933996314
