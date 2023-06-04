@@ -1,0 +1,194 @@
+---
+layout:    post
+title:     Java初学实践01
+subtitle:  算术题生成器
+date:       2023-5-11
+author:     Draper-crypto
+header-img: img/blogimg/post-bg-debug.png
+catalog: true
+tags:
+    - Java
+    - 学习笔记
+---
+
+# 一、任务说明
+
+- 使用`Java`语言编写，软件选用`IntelliJ IDEA 2022.2.3`
+- 代码实现功能：
+  - 实现用户自定义生成算数练习题的数量
+  - 循环生成指定数量的随机算术题。
+  - 随机生成两个数字和一个运算符，并根据运算符生成相应的算术题。
+  - 记录用户答对的题目数量。
+  - 输出用户答对的题目数量。
+
+# 二、代码实现
+
+1.源代码
+
+```java
+import java.util.Random;
+import java.util.Scanner;
+
+public class ArithmeticExercise {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in); // 创建Scanner对象，用于读取用户输入
+        Random random = new Random(); // 创建Random对象，用于生成随机数
+
+        System.out.print("请输入生成算术题的数量: ");
+        int numberOfQuestions = scanner.nextInt(); // 读取用户输入的算术题数量
+
+        int correctAnswers = 0; // 记录用户答对的题目数量
+
+        // 循环生成指定数量的算术题
+        for (int i = 1; i <= numberOfQuestions; i++) {
+            int num1 = random.nextInt(100); // 生成第一个随机数
+            int num2 = random.nextInt(100); // 生成第二个随机数
+            int operation = random.nextInt(4); // 随机生成运算类型，0: 加法, 1: 减法, 2: 乘法, 3: 除法
+            int correctResult = 0; // 记录正确答案
+
+            // 根据运算类型生成相应的算术题，并计算正确答案
+            switch (operation) {
+                case 0:
+                    correctResult = num1 + num2;
+                    System.out.printf("问题 %d: %d + %d = ", i, num1, num2);
+                    break;
+                case 1:
+                    correctResult = num1 - num2;
+                    System.out.printf("问题 %d: %d - %d = ", i, num1, num2);
+                    break;
+                case 2:
+                    correctResult = num1 * num2;
+                    System.out.printf("问题 %d: %d * %d = ", i, num1, num2);
+                    break;
+                case 3:
+                    while (num2 == 0) { // 如果第二个随机数为0，则重新生成
+                        num2 = random.nextInt(100);
+                    }
+                    correctResult = num1 / num2;
+                    System.out.printf("问题 %d: %d / %d = ", i, num1, num2);
+                    break;
+            }
+
+            int userAnswer = scanner.nextInt(); // 读取用户输入的答案
+
+            if (userAnswer == correctResult) { // 如果用户答案正确，则输出“正确”并增加答对的题目数量
+                System.out.println("正确");
+                correctAnswers++;
+            } else { // 如果用户答案错误，则输出“错误”并显示正确答案
+                System.out.println("错误");
+                System.out.printf("正确答案是: %d\n", correctResult);
+            }
+        }
+
+        System.out.printf("您共答对了 %d 道题。", correctAnswers); // 输出用户答对的题目数量
+        scanner.close(); // 关闭Scanner对象
+    }
+}
+```
+
+2.运行截图
+
+![image-20230511130847732](https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/202305111308882.png)
+
+# 三、代码解释
+
+1.导入必要的类
+
+```java
+import java.util.Random;
+import java.util.Scanner;
+```
+
+在这个程序中，我们需要使用Java的随机数生成器和输入输出类。因此，我们需要导入`java.util.Random`和`java.util.Scanner`类。
+
+2.创建Scanner和Random对象
+
+```java
+Scanner scanner = new Scanner(System.in);
+Random random = new Random();
+```
+
+我们需要使用Scanner类来读取用户输入，使用Random类来生成随机数。
+
+3.提示用户输入题目数量
+
+```java
+System.out.print("请输入生成算术题的数量: ");
+int numberOfQuestions = scanner.nextInt();
+```
+
+程序会提示用户输入要生成的算术题数量，并使用Scanner类读取用户输入。
+
+4.循环生成算术题
+
+```java
+for (int i = 1; i <= numberOfQuestions; i++) {
+    int num1 = random.nextInt(100);
+    int num2 = random.nextInt(100);
+    int operation = random.nextInt(4); // 0: 加法, 1: 减法, 2: 乘法, 3: 除法
+    int correctResult = 0;
+
+    switch (operation) {
+        case 0:
+            correctResult = num1 + num2;
+            System.out.printf("问题 %d: %d + %d = ", i, num1, num2);
+            break;
+        case 1:
+            correctResult = num1 - num2;
+            System.out.printf("问题 %d: %d - %d = ", i, num1, num2);
+            break;
+        case 2:
+            correctResult = num1 * num2;
+            System.out.printf("问题 %d: %d * %d = ", i, num1, num2);
+            break;
+        case 3:
+            while (num2 == 0) {
+                num2 = random.nextInt(100);
+            }
+            correctResult = num1 / num2;
+            System.out.printf("问题 %d: %d / %d = ", i, num1, num2);
+            break;
+    }
+
+    int userAnswer = scanner.nextInt();
+
+    if (userAnswer == correctResult) {
+        System.out.println("正确");
+        correctAnswers++;
+    } else {
+        System.out.println("错误");
+        System.out.printf("正确答案是: %d\n", correctResult);
+    }
+}
+```
+
+程序使用for循环生成指定数量的算术题。在每次循环中，程序会生成两个随机数`num1`和`num2`，以及一个随机数`operation`，用于表示要进行的运算类型。然后，程序会根据`operation`的值生成相应的算术题，并提示用户输入答案。如果用户输入的答案与正确答案相同，程序会输出“正确”，否则输出“错误”并显示正确答案。
+
+5.输出结果
+
+```java
+System.out.printf("您共答对了 %d 道题。", correctAnswers);
+scanner.close();
+```
+
+程序会输出用户答对的题目数量，并关闭Scanner对象。
+
+# 四、注意事项
+
+1. 输入的算术题数量必须是正整数。
+
+2. 程序只支持加、减、乘、除四种运算。
+
+3. 如果除法运算的第二个数字为0，则程序会重新生成一个非零数字。
+
+4. 程序会在用户输入答案后才输出正确答案和用户是否答对，因此请耐心等待程序提示。
+
+5. 程序会在所有算术题回答完毕后输出用户答对的题目数量。
+
+-----
+
+# 国内平台创作链接
+
+👉知乎：[点击转跳](https://zhuanlan.zhihu.com/p/628569915)
+
+👉CSDN：[点击转跳](https://blog.csdn.net/Suprman88/article/details/130619639)
