@@ -25,7 +25,7 @@
 
 <h1>🔗 Contact</h1>
 
-  <div align="center">
+<div>
     <a href="https://blog.csdn.net/Suprman88">
         <img src="https://img.shields.io/badge/CSDN-论坛-c32136" />
     </a>&emsp;
@@ -36,12 +36,14 @@
     <img src="https://komarev.com/ghpvc/?username=Draper-crypto&label=Views&color=0e75b6&style=flat" alt="访问量统计" />
 </div>
 
-
-| ![](https://stats.justsong.cn/api/zhihu?username=draper-crypto&theme=light&lang=zh-CN) | ![](https://stats.justsong.cn/api/csdn?id=Suprman88&theme=light&lang=zh-CN) |
-| :----------------------------------------------------------: | :----------------------------------------------------------: |
-
+<div align="center">
+<img src="https://stats.justsong.cn/api/zhihu?username=draper-crypto&theme=light&lang=zh-CN" />
+<img src="https://stats.justsong.cn/api/csdn?id=Suprman88&theme=light&lang=zh-CN" />
+</div>
 
 
 
 <div align="center">
-    <img width="150" src="https://cdn.jsdelivr.net/gh/sun0225SUN/sun0225SUN/assets/images/left.png" />    <img width="150" src="https://cdn.jsdelivr.net/gh/sun0225SUN/sun0225SUN/assets/images/cxyduck.gif" style="zoom:100%;">   <img width="150" src="https://cdn.jsdelivr.net/gh/sun0225SUN/sun0225SUN/assets/images/right.png" /></ div>
+ <img width="150" src="https://cdn.jsdelivr.net/gh/sun0225SUN/sun0225SUN/assets/images/cxyduck.gif" style="zoom:100%;"> 
+    </ div>
+
