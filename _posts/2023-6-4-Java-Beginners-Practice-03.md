@@ -4,7 +4,7 @@ title:     Java初学实践03
 subtitle:  使用spring boot进行简单的用户管理
 date:       2023-6-4
 author:     Draper-crypto
-header-img: img/blogimg/post-Java-alibaba.jpg
+header-img: img/blogimg/post-bg-A.jpg
 catalog: true
 tags:
     - Java
