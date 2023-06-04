@@ -1,10 +1,10 @@
-**Hi，我是约翰·陶(John Tao)** 
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=2168F7&center=%E7%9C%9F&vCenter=%E7%9C%9F&multiline=true&repeat=%E7%9C%9F&width=788&height=88&lines=Hi%EF%BC%81%F0%9F%91%8B%F0%9F%91%8B%F0%9F%91%8B+I'm+draper-crypto.;I+want+to+change+the+future+through+artificial+intelligence.;Create+epoch-making+products." alt="Typing SVG" /></a>
 
-👉南京工程高等职业学校**软件技术专业大专**在读 
+<h4>🔭 南京工程高等职业学校软件技术专业大专在读 </h4>
 
-👉苏州大学**法学专业自考本科**在读 
+<h4>🏋 苏州大学法学专业自考本科在读  </h4>
 
-👉罗伯特·清崎 **“富爸爸”课程学员** 
+<h4>👨‍ 罗伯特·清崎 “富爸爸”课程学员</h4>
 
 - NISP-1信息安全专业人员(证书编号：CNITSEC2021NISPⅠ05014)
 - 阿里巴巴认证初级数字化会计师(证书编号：CDA0049622082910007)
@@ -22,4 +22,24 @@
 &emsp;&emsp; 在工作、学习之余，我还是一个钓鱼爱好者，同时也非常喜欢看书。 
 
 **主攻方向：**法学、软件工程、投资金融
+
+
+
+<h1>🔗 Contact</h1>
+
+  <div align="center">
+    <a href="https://blog.csdn.net/Suprman88">
+        <img src="https://img.shields.io/badge/CSDN-论坛-c32136" />
+    </a>&emsp;
+    <a href="https://www.zhihu.com/people/draper-crypto">
+        <img src="https://img.shields.io/badge/Zhihu-知乎-blue" />
+    </a>&emsp;
+    <!-- visitor statistics logo 访客数统计徽标 -->
+    <img src="https://komarev.com/ghpvc/?username=Draper-crypto&label=Views&color=0e75b6&style=flat" alt="访问量统计" />
+
+| ![](https://stats.justsong.cn/api/zhihu?username=draper-crypto&theme=light&lang=zh-CN) | ![](https://stats.justsong.cn/api/csdn?id=Suprman88&theme=light&lang=zh-CN) |
+| :----------------------------------------------------------: | :----------------------------------------------------------: |
+
+<div align="center">
+    <img width="150" src="https://cdn.jsdelivr.net/gh/sun0225SUN/sun0225SUN/assets/images/left.png" />    <img width="150" src="https://cdn.jsdelivr.net/gh/sun0225SUN/sun0225SUN/assets/images/cxyduck.gif" style="zoom:100%;">   <img width="150" src="https://cdn.jsdelivr.net/gh/sun0225SUN/sun0225SUN/assets/images/right.png" /></ div>
 
