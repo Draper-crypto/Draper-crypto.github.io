@@ -11,7 +11,7 @@ tags:
     - 读书笔记
 ---
 
-<img src="https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/v2-cc7822639ef4773e2d4378adc4948002_720w.png" alt="v2-cc7822639ef4773e2d4378adc4948002_720w" style="zoom: 50%;" />
+<img src="https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/v2-cc7822639ef4773e2d4378adc4948002_720w.png" alt="v2-cc7822639ef4773e2d4378adc4948002_720w" style="zoom: 80%;" />
 
 《秘密 The Secret》一书是由澳大利亚女作家朗达·拜恩所著，作者花了一个星期时间，深入学习了这个“至大“的“秘密“，并写下此篇笔记与各位书友一道交流探讨。**书中的观点可能会有些让人感觉荒谬，故文章内容仅供参考。**
 
