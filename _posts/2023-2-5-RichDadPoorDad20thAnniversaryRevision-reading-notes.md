@@ -11,8 +11,15 @@ tags:
     - 读书笔记
 ---
 
-| <img src="https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/v2-33597e2e34602549488a927f6714eefc_720w.jpg" alt="v2-33597e2e34602549488a927f6714eefc_720w" style="zoom: 80%;" /> | <img src="https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/image-20230612222546416.png" alt="image-20230612222546416" style="zoom:150%;" /> |
-| ------------------------------------------------------------ | ------------------------------------------------------------ |
+ 
+
+<img src="https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/v2-33597e2e34602549488a927f6714eefc_720w.jpg" alt="v2-33597e2e34602549488a927f6714eefc_720w" style="zoom: 80%;" />
+
+ 
+
+<img src="https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/image-20230612222546416.png" alt="image-20230612222546416" style="zoom:150%;" />
+
+ 
 
 # 【内容简介】
 
