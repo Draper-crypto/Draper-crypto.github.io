@@ -11,12 +11,14 @@ tags:
 
 
 
-# 教程参考：
+# 教程参考
 
 - [从零开始，手把手教你本地部署Stable Diffusion Webui AI绘画](https://zhuanlan.zhihu.com/p/613530403)
 - [AI繪圖：Windows安裝Stable Diffusion WebUI教學](https://ivonblog.com/posts/windows-stable-diffusion-webui/)
 - [Stable Diffusion WebUI使用手册](https://ivonblog.com/posts/stable-diffusion-webui-manuals/installation/command-line-arguments-and-settings/)
 - [本地部署Stable Diffusion教程，详细教学，已安装成功](https://zhuanlan.zhihu.com/p/626006585)
+- [使用stable-diffusion-webui部署NovelAi/Stable Diffusion 保姆级教程、命令解释、原理讲解](https://zhuanlan.zhihu.com/p/574200991)
+- [从零开始，手把手教你本地部署Stable Diffusion Webui AI绘画](https://zhuanlan.zhihu.com/p/613530403)
 
 
 
@@ -30,6 +32,19 @@ tags:
 - [stable-diffusion-webui安装注意事项](https://blog.csdn.net/mujuboy/article/details/129397147)
 - [自力更生：Stable Diffusion webui本地部署遇到的坑及解决](https://www.bilibili.com/read/cv21987039)
 - [故障排除](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Troubleshooting)
+- [Stable diffusion本地部署时遇到的问题](https://www.bilibili.com/read/cv22604427/)
+
+##xFormers
+
+- [StableDiffusion Optimization](https://zhuanlan.zhihu.com/p/611173551)
+- [No module ‘xformers‘. Proceeding without it.](https://blog.csdn.net/qq_40902709/article/details/128152329)
+
+
+
+# 模型问题
+
+- [StableDiffusion模型资源探索食用指南](https://zhuanlan.zhihu.com/p/597504900)
+- [Stable Diffusion Models](https://rentry.org/sdmodels#)
 
 
 
