@@ -1,0 +1,731 @@
+---
+layout:     post
+title:      Python基础学习笔记
+date:       2023-7-22
+author:     Draper-crypto
+header-img: img/blogimg/Python.jpg
+catalog: true
+tags:
+    - python
+---
+
+# Print函数
+
+## 常见打印方式
+
+```python
+print("hello world !")
+```
+
+运行结果
+
+```shell
+G:\PyCharm\test01\venv\Scripts\python.exe G:\PyCharm\test01\1_print.py 
+hello world!
+
+进程已结束,退出代码0
+```
+
+## 其他打印方式
+
+- 使用加号链接多个字符
+
+```python
+print("你好" + "世界")
+```
+
+输出结果
+
+```shell
+G:\PyCharm\test01\venv\Scripts\python.exe G:\PyCharm\test01\2_more_print.py 
+你好世界
+
+进程已结束,退出代码0
+```
+
+- 双引号中含有单引号`\'`
+
+```python
+print("let\'s go")
+```
+
+输出结果
+
+```shell
+G:\PyCharm\test01\venv\Scripts\python.exe G:\PyCharm\test01\2_more_print.py 
+let's go
+
+进程已结束,退出代码0
+```
+
+- 回车转义符`\n`
+
+```python
+print("read this \n book")
+```
+
+输出结果
+
+```shell
+G:\PyCharm\test01\venv\Scripts\python.exe G:\PyCharm\test01\2_more_print.py 
+read this 
+ book
+
+进程已结束,退出代码0
+```
+
+- 文本中多换行
+
+```python
+print("""滚滚长江东逝水，浪花淘尽英雄。是非成败转头空。
+青山依旧在，几度夕阳红。
+白发渔樵江渚上，惯看秋月春风。一壶浊酒喜相逢。
+古今多少事，都付笑谈中。""")
+```
+
+输出结果
+
+```shell
+G:\PyCharm\test01\venv\Scripts\python.exe G:\PyCharm\test01\2_more_print.py 
+滚滚长江东逝水，浪花淘尽英雄。是非成败转头空。
+青山依旧在，几度夕阳红。
+白发渔樵江渚上，惯看秋月春风。一壶浊酒喜相逢。
+古今多少事，都付笑谈中。
+
+进程已结束,退出代码0
+```
+
+
+
+# 变量
+
+## 变量赋值
+
+```python
+wenhou = "hello,how are you"
+```
+
+## 变量命名规则
+
+标准命名：使用下划线分割单词、字母全部小写；驼峰命名
+
+| 变量名  | 对错 | 更多操作变量名 | 对错 |
+| :-----: | :--: | :------------: | :--: |
+| zhang_3 |  ✅   |    zhang!3     |  ❌   |
+| zhang 3 |  ❌   |     3zhang     |  ❌   |
+
+> **注意:** 不要使用关键字；注意大小写
+
+
+
+# 变量运算
+
+**运算符：**加`+`；减`-`；乘`*`；除`/`
+
+**优先级：**`()` > `**` > `*` `/` > `+` `-`
+
+
+
+**导入math库：**
+
+```python
+import math
+math.函数名(...)
+```
+
+**实践练习：**
+
+源代码：
+
+```python
+import math
+
+a = 1
+b = 9
+c = 20
+delta = b ** 2 - 4 * a * c
+print((-b + math.sqrt(delta)) / (2 * a))
+print((-b - math.sqrt(delta)) / (2 * a))
+```
+
+运行结果：
+
+```python
+G:\PyCharm\test01\venv\Scripts\python.exe G:\PyCharm\test01\4_math.py 
+-4.0
+-5.0
+
+进程已结束,退出代码0
+```
+
+
+
+# 注释
+
+- 单行注释
+
+```python
+# 这是一个单行注释
+```
+
+- 多行注释
+
+```python
+"""
+多行注释
+"""
+```
+
+- 单行叠加注释
+
+```python
+# print("""滚滚长江东逝水，浪花淘尽英雄。是非成败转头空。青山依旧在，几度夕阳红。
+# 白发渔樵江渚上，惯看秋月春风。一壶浊酒喜相逢。古今多少事，都付笑谈中。""")
+```
+
+> 可使用 CTRL+/ 快捷键快速注释
+
+
+
+# 数据类型
+
+|  类型名  |   类型   |       举例        |
+| :------: | :------: | :---------------: |
+|  字符串  |   str    | "Hello"     "哟!" |
+|   整数   |   int    |   6        -32    |
+|  浮点数  |  float   | 6.0         10.07 |
+| 布尔类型 |   bool   | True        False |
+| 空值类型 | NoneType |       None        |
+
+- 字符串 `str`
+
+```python
+#计算字符个数
+# 3
+len(' 6 ')
+# 4
+len('hi!!')
+# 5
+len('hi!!\n')
+
+#指定字符串数量 返回l
+”hello“[3]
+```
+
+> **索引计算**
+>
+> <img src="https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/image-20230713154701396.png" alt="image-20230713154701396" style="zoom: 50%;" />
+
+- 整数`int` 浮点数`float`
+
+| 类型   | 例子        |
+| ------ | ----------- |
+| 整数   | 6      -32  |
+| 浮点数 | 6.0   10.07 |
+
+- 布尔类型 `bool`
+
+值：`true`真     `false` 假
+
+- 空值类型 NoneType
+
+值：`None`
+
+None ≠ 0
+
+None ≠ “”
+
+None ≠ False
+
+
+
+# Type类型
+
+|    类判断     |        类型        |
+| :-----------: | :----------------: |
+| type("Hello") |   <class 'str'>    |
+|    type(6)    |   <class 'int'>    |
+|   type(6.0)   |  <class 'float'>   |
+|  type(True)   |   <class 'bool'>   |
+|  type(None)   | <class 'NoneType'> |
+
+## 使用len求字符串长度
+
+```python
+s = "Hello world!"
+print(len(s))
+```
+
+运行结果
+
+```shell
+G:\PyCharm\test01\venv\Scripts\python.exe G:\PyCharm\test01\6_type.py 
+12
+
+进程已结束,退出代码0
+```
+
+> **注意：**空格和符号也会占长度
+
+## 通过索引获取单个字符
+
+```python
+s = "Hello world!"
+print(s[0])
+print(s[11])
+```
+
+运行结果
+
+```python
+G:\PyCharm\test01\venv\Scripts\python.exe G:\PyCharm\test01\6_type.py 
+H
+!
+
+进程已结束,退出代码0
+```
+
+## type函数判断数据类型
+
+```python
+s = "Hello world!" 
+b1 = True
+n = None
+print(type(s))
+print(type(b1))
+print(type(n))
+print(type(1.5))
+```
+
+运行结果
+
+```shell
+G:\PyCharm\test01\venv\Scripts\python.exe G:\PyCharm\test01\6_type.py 
+<class 'str'>
+<class 'bool'>
+<class 'NoneType'>
+<class 'float'>
+
+进程已结束,退出代码0
+```
+
+#交互模式
+
+优点：
+
+- 不需要创建任何Python文件就可以运行
+- 不需要用print就可以看到返回结果
+
+缺点
+- 所有输入的指令都不会被保存
+
+# Input交互
+
+>- input函数给用户输入的值都会被定义成字符串类型
+>- 使用input传入的数据但凡想进行计算必须数据类型转换
+>- 打印最终结果是也需要再转换为字符串
+
+
+
+```python
+user_weight = float(input("请输入您的体重（单位KG）:"))
+user_height = float(input("请输入升高（单位m）:"))
+user_bmi = user_weight / (user_height) ** 2
+print("您的BMI值：" + str(user_bmi))
+```
+
+运行结果
+
+```shell
+G:\PyCharm\test01\venv\Scripts\python.exe G:\PyCharm\test01\7_BIM.py 
+请输入您的体重（单位KG）:65
+请输入升高（单位m）:1.82
+您的BMI值：19.623233908948194
+
+进程已结束,退出代码0
+```
+
+# if判断语句
+
+格式：
+
+```shell
+if [条件]:
+	[条件为真时执行]
+	[条件为真时执行]
+	[条件为真时执行]
+	[条件为真时执行]
+else:
+	[条件为假时执行]
+	[条件为假时执行]
+	[条件为假时执行]
+```
+
+练习1：
+
+```python
+mood_index = int(input("对象今天的心情指数是："))
+if mood_index >= 60:
+    print("可以打游戏！")
+else:
+    print("不可以打游戏！")
+```
+
+结果：
+
+```python
+G:\PyCharm\test01\venv\Scripts\python.exe G:\PyCharm\test01\8_ifelse.py 
+对象今天的心情指数是：90
+可以打游戏！
+
+进程已结束,退出代码0
+```
+
+```python
+G:\PyCharm\test01\venv\Scripts\python.exe G:\PyCharm\test01\8_ifelse.py 
+对象今天的心情指数是：55
+不可以打游戏！
+
+进程已结束,退出代码0
+```
+
+
+
+# 嵌套条件语句
+
+```shell
+if [条件一]:
+	if [条件二]:
+		[语句一]
+		[语句二]
+		[语句三]
+	else:
+		[语句一]
+		[语句二]
+		[语句三]
+```
+
+案例：
+
+```python
+user_weight = float(input("请输入您的体重（单位KG）:"))
+user_height = float(input("请输入升高（单位m）:"))
+user_bmi = user_weight / (user_height) ** 2
+print("您的BMI值：" + str(user_bmi))
+
+# 偏瘦: user_BMI <= 18.5
+# 正常: 18.5 < user_BMI <= 25
+# 偏胖: 25< user_BMI <= 30
+# 肥胖: user_BMI > 30
+if user_bmi <= 18.5 :
+    print("偏瘦")
+elif 18.5 < user_bmi <= 25:
+    print("正常")
+elif 25< user_bmi <= 30:
+    print("偏胖")
+elif user_bmi > 30:
+    print("肥胖")
+```
+
+结果：
+
+```shell
+G:\PyCharm\test01\venv\Scripts\python.exe G:\PyCharm\test01\9_moreif.py 
+请输入您的体重（单位KG）:65
+请输入升高（单位m）:1.82
+您的BMI值：19.623233908948194
+正常
+
+进程已结束,退出代码0
+```
+
+# 逻辑运算符 与或非
+
+| 名称     | 语法 | 操作对象   | 运算方式 |
+| -------- | ---- | ---------- | -------- |
+| 与 `and` | and  | 两个及以上 | 一假全假 |
+| 或`or`   | or   | 两个及以上 | 一真全真 |
+| 非`not`  | not  | 单个       | 正反对调 |
+
+> 优先级：
+>
+> not > and > or
+>
+> 可使用（）调整优先级
+
+
+
+# list列表
+
+语句格式：
+
+```python
+# 列表
+列表名 = []
+
+# 多数据列表
+列表名 = ["数据1","数据2","数据3"]
+
+#往已经有的列表中加数据
+列表名.append("要加入的数据")
+
+#已经有的列表中删除数据
+列表名.remove("要删除的数据")
+
+#可使用len函数来计算列表中的数据个数
+len(列表名)
+
+# 索引，如打印指定列表名
+print(列表名[第几个])
+#也可以使用索引赋值
+print(列表名[第几个]) = 新值
+
+#可以使用max、min、sorted
+max		选出最大值
+min 	选出最小值
+sorted	排序
+
+```
+
+函数与方法的区别
+
+|              方法              |        函数        |
+| :----------------------------: | :----------------: |
+|         对象.方法名(…)         |    函数名(对象)    |
+| shopping_list.append(“显示器”) | len(shopping_list) |
+|            数据动态            |      数据固定      |
+
+案例1：增加操作
+
+```python
+shopping_list = []
+shopping_list.append("键盘")
+shopping_list.append("鼠标")
+shopping_list.append("耳机")
+shopping_list.append("电竞椅")
+
+print(shopping_list)
+```
+
+结果：
+
+```shell
+G:\PyCharm\test01\venv\Scripts\python.exe G:\PyCharm\test01\10_item.py 
+['键盘', '鼠标', '耳机', '电竞椅']
+
+进程已结束,退出代码0
+```
+
+
+
+案例2：删除操作
+
+```python
+shopping_list = []
+shopping_list.append("键盘")
+shopping_list.append("鼠标")
+shopping_list.append("耳机")
+shopping_list.append("电竞椅")
+
+shopping_list.remove("键盘")
+
+print(shopping_list)
+```
+
+结果：
+
+```shell
+G:\PyCharm\test01\venv\Scripts\python.exe G:\PyCharm\test01\10_item.py 
+['鼠标', '耳机', '电竞椅']
+
+进程已结束,退出代码0
+```
+
+
+
+案例3：求个数
+
+```python
+shopping_list = []
+shopping_list.append("键盘")
+shopping_list.append("鼠标")
+shopping_list.append("耳机")
+shopping_list.append("电竞椅")
+
+
+print(shopping_list)
+print(len(shopping_list))
+```
+
+结果：
+
+```shell
+G:\PyCharm\test01\venv\Scripts\python.exe G:\PyCharm\test01\10_item.py 
+['键盘', '鼠标', '耳机', '电竞椅']
+4
+
+进程已结束,退出代码0
+```
+
+案例4：替换原列表中的值
+
+```python
+shopping_list = []
+shopping_list.append("键盘")
+shopping_list.append("鼠标")
+shopping_list.append("耳机")
+shopping_list.append("电竞椅")
+shopping_list[1] = "硬盘"
+
+print(shopping_list)
+```
+
+结果：
+
+```shell
+G:\PyCharm\test01\venv\Scripts\python.exe G:\PyCharm\test01\10_item.py 
+['键盘', '硬盘', '耳机', '电竞椅']
+
+进程已结束,退出代码0
+```
+
+# 字典
+
+语法格式：
+
+```python
+#键 ： 值
+key : value
+contacts = {"键1":"值1","键2":"值2"}
+contacts = [键值]
+```
+
+- 元组（tuple）
+
+实践练习：
+
+```python
+# 做一个简单的网络热词查询工具
+# 字典部分
+slang_dist ={"多巴胺穿搭":"是指通过服装搭配来营造愉悦感的穿搭风格。该词来源于时尚心理学家道恩·卡伦（Dawnn Karen）出版的作品《穿出最好的人生》。 ",
+             "孔乙己长衫":"出自鲁迅小说《孔乙己》。《孔乙己》中写道：“孔乙己是站着喝酒而穿长衫的唯一的人。”小说中，“穿长衫”代表的是读书人，而“站着喝酒”又表明生活过得比较窘迫。"}
+slang_dist["指鼠为鸭"] = "指6·1江西工职院食品安全事件。2023年6月1日，网传江西某学校食堂饭菜图片，呈现疑似“鼠头”异物，后经校方和有关部门证实异物为“鸭脖”，但未提供相关证据证明。"
+
+query = input("请输入您要查询的流行词汇：")
+if query in slang_dist:
+    print("您查询的词汇是 " + query +" 他的意思是:")
+    print(slang_dist[query])
+else:
+    print("您查询的词汇未被收录")
+    print("本字典中收录词条数为" + str(len(slang_dist)))
+```
+
+结果：
+
+```python
+G:\PyCharm\test01\venv\Scripts\python.exe G:\PyCharm\test01\11_dictionary.py 
+请输入您要查询的流行词汇：NB
+您查询的词汇未被收录
+本字典中收录词条数为3
+
+进程已结束,退出代码0
+```
+
+```python
+G:\PyCharm\test01\venv\Scripts\python.exe G:\PyCharm\test01\11_dictionary.py 
+请输入您要查询的流行词汇：指鼠为鸭
+您查询的词汇是 指鼠为鸭 他的意思是:
+指6·1江西工职院食品安全事件。2023年6月1日，网传江西某学校食堂饭菜图片，呈现疑似“鼠头”异物，后经校方和有关部门证实异物为“鸭脖”，但未提供相关证据证明。
+
+进程已结束,退出代码0
+```
+
+# For循环
+
+```python
+for 变量名 in 可迭代对象
+	# 对每变量做事情
+```
+
+# range 整数数列
+
+- 标准语句
+
+```python
+range(起始值,结束值)
+```
+
+> **注意：**结束值不包含结束值
+
+- 配合步长值
+```python
+range(起始值,结束值,步长)
+```
+
+> **注意：**不指明步长默认为1
+
+# While循环
+
+标准语句：
+
+```python
+while 条件A:
+    行动B
+```
+
+> **注意：**
+>
+> `For`循环：有明确循环对象或次数
+>
+> `While`循环：循环次数未知
+
+# format方法
+
+语法格式
+
+```python
+format(替换1，替换2)
+# 在实际句子中通过{0}{1}替换要改变的部分
+# 同样可以通过关键词来进行替换
+```
+
+# python模块
+
+**官方文档：**https://docs.python.org/zh-cn/3/library/functions.html
+
+**第三方模块：**pypi.org
+
+引入模块的方法：
+
+- inport语句
+
+```python
+import [模块名]
+# 使用时
+[模块名].[函数名]
+```
+
+- from…import…语句
+
+```python
+from [模块名] import [函数名]
+# 特点是不用在应用函数时再带上模块名称
+```
+
+- from…import *
+
+```python
+from [模块名] import *
+# 引用模块下全部函数
+```
+
+# 类 class
+
+定义类语法
+
+```python
+class [类名]:
+    def __init__(对象名):
+	# 定义类的代码
+    # 定义类的代码
+```
