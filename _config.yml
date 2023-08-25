@@ -6,12 +6,12 @@
 # description: 网站描述。
 # keyword: 关键词，可能用于SEO。
 # url & baseurl: 定义网站的URL。
-title: Draper-crypto Blog
-SEOTitle: Draper-crypto的博客 | Draper-crypto Blog
+title: John Tao Blog
+SEOTitle: John Tao的博客 | John Tao Blog
 header-img: img/post-bg-index.jpg
 email: wrecking.midnight@gmail.com
 description: ""
-keyword: "Draper-crypto, Draper-crypto Blog, Draper-crypto的博客, iOS, Apple, iPhone"
+keyword: "Draper-crypto, Draper-crypto Blog, Draper-crypto的博客, John Tao, John Tao Blog, John Tao的博客"
 url: "https://draper-crypto.github.io/"          # your host, for absolute URL
 baseurl: "" # for example, '/blog' if your blog hosted on 'host/blog'
 
