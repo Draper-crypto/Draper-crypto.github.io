@@ -1,4 +1,11 @@
-# Site settings
+# 站点设置 (Site settings):
+# title: 网站的标题。
+# SEOTitle: 用于搜索引擎优化的标题。
+# header-img: 网站页眉的背景图片。
+# email: 联系邮箱。
+# description: 网站描述。
+# keyword: 关键词，可能用于SEO。
+# url & baseurl: 定义网站的URL。
 title: Draper-crypto Blog
 SEOTitle: Draper-crypto的博客 | Draper-crypto Blog
 header-img: img/post-bg-index.jpg
@@ -8,10 +15,11 @@ keyword: "Draper-crypto, Draper-crypto Blog, Draper-crypto的博客, iOS, Apple,
 url: "https://draper-crypto.github.io/"          # your host, for absolute URL
 baseurl: "" # for example, '/blog' if your blog hosted on 'host/blog'
 
-# Publish posts or collection documents with a future date.
+# 帖子设置 (Publish posts or collection documents with a future date.):
+# future: 是否允许发布带有未来日期的帖子或集合文档。
 future: true
 
-# SNS settings
+# 社交网络设置 (SNS settings):
 RSS: false
 zhihu_username:     draper-crypto
 github_username:    Draper-crypto
@@ -20,8 +28,12 @@ twitter_username: cryptodraper1
 # facebook_username:  huxpro
 # linkedin_username:  firstname-lastname-idxxxx
 
-# Build settings
-# from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
+# 构建设置 (Build settings):
+# highlighter: 代码高亮工具。
+# permalink: URL结构。
+# paginate: 每页显示的帖子数量。
+# exclude: 要从构建过程中排除的文件或目录列表。
+# anchorjs: 是否使用自定义锚点。
 highlighter: rouge
 permalink: pretty
 paginate: 10
@@ -34,17 +46,23 @@ exclude:
     "README.md",
     "README.zh.md",
   ]
-anchorjs: true # if you want to customize anchor. check out line:181 of `post.html`
+anchorjs: true
+# 如果你想自定义锚。查看' post.html '的第181行
+
 # If you have timezone issue (e.g. #68) in China, uncomment to use this:
+# 如果您在中国有时区问题(例如#68)，取消注释以使用此:
 #timezone: CN
 
-# Gems
-# from PR#40, to support local preview for Jekyll 3.0
-# make sure you have this gem installed
+# 插件设置 (Gems):
+# plugins: 使用的Jekyll插件列表。
+# 从PR#40开始，支持Jekyll 3.0的本地预览
+# 确保您已经安装了这个gem
 # `$ gem install jekyll-paginate`
 plugins: [jekyll-paginate]
 
-# Markdown settings
+# Markdown设置 (Markdown settings):
+# markdown: 使用的Markdown解析器。
+# kramdown: kramdown的特定设置。
 # replace redcarpet to kramdown,
 # although redcarpet can auto highlight code, the lack of header-id make the catalog impossible, so I switch to kramdown
 # document: http://jekyllrb.com/docs/configuration/#kramdown
@@ -57,39 +75,49 @@ kramdown:
     block:
       line_numbers: true
       start_line: 1
-
-# Netease settings
+      
+# Netease设置 (Netease settings):
+# netease_comment: 是否启用Netease评论功能。
 netease_comment: false
 
-# Analytics settings
-# Google Analytics
-ga_track_id: "G-K5QBTBL036" # Format: UA-xxxxxx-xx
-ga_domain: auto # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
+# 分析设置 (Analytics settings):
+# Google Analytics的追踪ID和域设置。
+# ga_track_id: "G-K5QBTBL036" # Format: UA-xxxxxx-xx
+# ga_domain: auto # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
 
-# Sidebar settings
+# 侧边栏设置 (Sidebar settings):
+# sidebar: 是否使用侧边栏。
+# sidebar-about-description: 侧边栏的简介。
+# sidebar-avatar: 侧边栏的头像URL。
 sidebar: true # whether or not using Sidebar.
 sidebar-about-description: "求知若渴，虚怀若愚<br>Stay hungry，stay foolish."
 sidebar-avatar: https://www.draper-crypto.top/img/about.jpg # use absolute URL, seeing it's used in both `/` and `/about/`
 
-# Featured Tags
+# 特色标签设置 (Featured Tags):
+# featured-tags: 是否使用特色标签。
+# featured-condition-size: 标签被视为特色的条件（基于其大小）。
 featured-tags: true # whether or not using Feature-Tags
 featured-condition-size: 1 # A tag will be featured if the size of it is more than this condition value
 
-# Progressive Web Apps
+# 渐进式网络应用设置 (Progressive Web Apps):
+# chrome-tab-theme-color: Chrome选项卡的主题颜色。
+# service-worker: 是否使用service worker。
 chrome-tab-theme-color: "#000000"
 service-worker: true
 
-# MathJax rendering for layout:page (e.g. post preview)
+# 数学渲染设置 (MathJax rendering for layout:page):
+# page-mathjax: 是否在页面布局中使用MathJax渲染。
 page-mathjax: false
 
-# Friends
+# 朋友链接 (Friends):
+# friends: 一个友情链接列表，其中每个链接包括标题和href。
 friends:
   [
     { title: "CSDN", href: "https://blog.csdn.net" },
     { title: "知乎", href: "https://www.zhihu.com/" },
     { title: "Apple Developer", href: "https://developer.apple.com/" },
-    # { title: "Sherry Woo", href: "https://sherrywoo.me/" },
-    # { title: "SmdCn", href: "http://blog.smdcn.net" },
+    { title: "Apple Education Community", href: "https://education.apple.com/" },
+    { title: "Openai", href: "https://openai.com/" },
     # { title: "JiyinYiyong", href: "http://tiye.me/" },
     # { title: "DHong Say", href: "http://dhong.co" },
     # { title: "尹峰以为", href: "http://ingf.github.io/" },
