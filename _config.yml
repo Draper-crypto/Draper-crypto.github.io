@@ -17,8 +17,8 @@ zhihu_username:     draper-crypto
 github_username:    Draper-crypto
 # weibo_username: huxpro
 # twitter_username: huxpro
-#facebook_username:  huxpro
-#linkedin_username:  firstname-lastname-idxxxx
+# facebook_username:  huxpro
+# linkedin_username:  firstname-lastname-idxxxx
 
 # Build settings
 # from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
