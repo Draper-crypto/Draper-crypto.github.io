@@ -274,3 +274,17 @@ pre.highlight {
     }
   }
 }
+
+// 1.基础样式:
+// .highlight, pre.highlight: 这定义了代码块和其前置元素的背景颜色和文本颜色。
+// .highlight pre 和 .highlight .hll: 定义了代码块内部预格式化文本的背景颜色。
+// 2.代码高亮:
+// 这些样式定义了不同类型的代码元素（如关键字、注释、字符串等）的颜色和样式。
+// 例如，.highlight .c 定义了注释的颜色和样式，其中 .c 可能代表“comment”。
+// 3.临时解决方案:
+// .language-coq .highlight .err：这是一个临时解决方案，用于修复Coq数学符号的问题。它扩展了关键字的样式并使背景颜色透明。
+// 4.自定义样式:
+// .highlighter-rouge .highlight：这是针对Hux Blog的自定义样式，定义了代码块的各种样式属性，如边距、字体大小、行高、颜色等。
+// .highlighter-rouge .highlight .rouge-table 和子元素：定义了Rouge代码高亮时的表格样式。
+// 5.响应式设计:
+// @media (max-width: 480px): 这是一个媒体查询，为屏幕宽度小于或等于480px的设备（例如手机）提供特定的样式。它调整了代码块的边距、边框半径等。
