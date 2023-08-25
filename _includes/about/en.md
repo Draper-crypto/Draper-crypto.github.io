@@ -1,17 +1,35 @@
-> Hate this body is not I have, when to forget the camp.<br>
-> The boat died, the book sent the rest of his life. 
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=2168F7&center=%E7%9C%9F&vCenter=%E7%9C%9F&multiline=true&repeat=%E7%9C%9F&width=788&height=88&lines=Hi%EF%BC%81%F0%9F%91%8B%F0%9F%91%8B%F0%9F%91%8B+I'm+draper-crypto.;I+want+to+change+the+future+through+artificial+intelligence.;Create+epoch-making+products." alt="Typing SVG" /></a>
 
-**Hi，I'm John Tao** 
+> Stay hungry，stay foolish.
 
-👉Studying **software technology** at Nanjing Engineering Vocational College 
+# John Tao
 
-👉at Suzhou University **law Self-studying** 
+## 教育经历
 
-👉A student of Robert Toru Kiyosaki's **"Rich Dad Poor Dad" course**
+- 🔭 Studying **software technology** at Nanjing Engineering Vocational College
+- 🏋 at Suzhou University **law Self-studying**
+- 👨‍ A student of Robert Toru Kiyosaki's **"Rich Dad Poor Dad" course**
 
-A certified NISP-1 information security professional (certificate number: CNITSEC2021NISPⅠ05014) 
+## 工作技能
 
-an Alibaba certified junior digital accountant (certificate number: CDA0049622082910007). 
+| 日期          | 证书名称                                           | 证书编号                               |
+| ------------- | -------------------------------------------------- | -------------------------------------- |
+| 2021年5月30日 | Microsoft Word Expert (Office 2016)                | LvP9-sFMd                              |
+| 2021年6月11日 | Microsoft PowerPoint (Office 2016)                 | RAvx-4TC4                              |
+| 2021年8月01日 | Microsoft Excel Expert (Office 2016)               | ywX9-XVsc                              |
+| 2021年8月05日 | Microsoft Access (Office 2016)                     | wncw5-4ScF                             |
+| 2021年8月05日 | Microsoft Office Specialist: Master (Office 2016)  | L29z-sFah                              |
+| 2021年8月05日 | Microsoft Office Specialist: Master成绩单          | www.credly.com/users/username.d64f3534 |
+| 2021年9月14日 | certified NISP-1 information security professional | CNITSEC2021NISPⅠ05014                  |
+| 2022年8月29日 | Alibaba certified junior digital accountant        | CDA0049622082910007                    |
+|               |                                                    |                                        |
+|               |                                                    |                                        |
+|               |                                                    |                                        |
+|               |                                                    |                                        |
+|               |                                                    |                                        |
+|               |                                                    |                                        |
+|               |                                                    |                                        |
+|               |                                                    |                                        |
 
 I have been granted titles such as junior digital management expert and digital personnel management expert by DingTalk. 
 
