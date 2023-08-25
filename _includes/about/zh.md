@@ -67,9 +67,9 @@
 
 [1]John Tao.Windows安装MySQL时报错“One or more product requirements have not been satisified”的解决办法.(2022-08-04).https://zhuanlan.zhihu.com/p/549887990
 
-[2]
+[2]John Tao.MySQL5.6.36安装教程.(2022-08-05).https://zhuanlan.zhihu.com/p/549906461
 
-
+*⚠未列举完整*
 
 ## 🔗 Contact
 
