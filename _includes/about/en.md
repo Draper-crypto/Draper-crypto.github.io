@@ -4,47 +4,93 @@
 
 # John Tao
 
-## 教育经历
+## Educational experience
 
-- 🔭 Studying **software technology** at Nanjing Engineering Vocational College
-- 🏋 at Suzhou University **law Self-studying**
-- 👨‍ A student of Robert Toru Kiyosaki's **"Rich Dad Poor Dad" course**
+- 🎓 Junior college student majoring in **software technology** in Nanjing Engineering Higher Vocational School
+- 🎓 Soochow University **law major** self-examination undergraduate
+- 🎓 **Master of Business Administration**, College of Europe
+- 🔭 Member of Changjiang Technical and Economic Association（I2302227M）
+- 💰 Robert Kiyosaki **"Rich Dad" course** participant
 
-## 工作技能
+## Job skill
 
-| 日期          | 证书名称                                           | 证书编号                               |
-| ------------- | -------------------------------------------------- | -------------------------------------- |
-| 2021年5月30日 | Microsoft Word Expert (Office 2016)                | LvP9-sFMd                              |
-| 2021年6月11日 | Microsoft PowerPoint (Office 2016)                 | RAvx-4TC4                              |
-| 2021年8月01日 | Microsoft Excel Expert (Office 2016)               | ywX9-XVsc                              |
-| 2021年8月05日 | Microsoft Access (Office 2016)                     | wncw5-4ScF                             |
-| 2021年8月05日 | Microsoft Office Specialist: Master (Office 2016)  | L29z-sFah                              |
-| 2021年8月05日 | Microsoft Office Specialist: Master成绩单          | www.credly.com/users/username.d64f3534 |
-| 2021年9月14日 | certified NISP-1 information security professional | CNITSEC2021NISPⅠ05014                  |
-| 2022年8月29日 | Alibaba certified junior digital accountant        | CDA0049622082910007                    |
-|               |                                                    |                                        |
-|               |                                                    |                                        |
-|               |                                                    |                                        |
-|               |                                                    |                                        |
-|               |                                                    |                                        |
-|               |                                                    |                                        |
-|               |                                                    |                                        |
-|               |                                                    |                                        |
+| Date       | Certificate name                                             | Certificate number                     |
+| ---------- | ------------------------------------------------------------ | -------------------------------------- |
+| 2019-12-13 | ATA Office Software Application Series MS Office application skills Intermediate | S32000063194000980                     |
+| 2020-03-01 | College English Proficiency Test (Level B)                   | 1922821390121000106                    |
+| 2021-05-30 | Microsoft Word expert(Office 2016)                           | LvP9-sFMd                              |
+| 2021-06-11 | Microsoft PowerPoint expert(Office 2016)                     | RAvx-4TC4                              |
+| 2021-08-01 | Microsoft Excel expert(Office 2016)                          | ywX9-XVsc                              |
+| 2021-08-05 | Microsoft Access expert(Office 2016)                         | wncw5-4ScF                             |
+| 2021-08-05 | Microsoft Office Specialist: Master(Office 2016)             | L29z-sFah                              |
+| 2021-08-05 | Microsoft Office Specialist: Master Report card              | www.credly.com/users/username.d64f3534 |
+| 2021-09-14 | NISP-1 Information Security Professionals                    | CNITSEC2021NISPⅠ05014                  |
+| 2022-08-29 | Alibaba certified junior digital accountant                  | CDA0049622082910007                    |
+| 2023-08-17 | Project management Essentials Certification                  | 322468309                              |
+| 2023-08-17 | COSHH Certified Risk Assessor                                | jjhgzswezz                             |
+| 2023-08-18 | Apple Teacher                                                | -                                      |
+| 2023-08-22 | Master of Business Administration                            | 00220403112                            |
 
-I have been granted titles such as junior digital management expert and digital personnel management expert by DingTalk. 
+## Honor received
 
-I have also earned MOS 2016 Master certification and ACCESS database Microsoft professional certification. 
+| Date       | Honorary title                                               |
+| ---------- | ------------------------------------------------------------ |
+| 2022-09-01 | Dingding awarded the title of junior digital manager, digital personnel manager and digital office talent |
 
-I completed the Financial Literacy Training Camp course at Wei Miao Business School on December 5th, 2022. 
+*⚠Minor awards are not listed here (including honors issued by schools and colleges such as Merit students)*
 
-On December 8th, 2022, I finished the Xiao Mr. Investment Junior Course at Netease. 
+## Courses completed
 
-I have published 55 articles on entrepreneurship, business management, and information technology on Zhihu (Level 4 blogger) and 42 articles on CSDN blog website (with a total of 13 medals).
+| Date       | Honorary title                                               |
+| ---------- | ------------------------------------------------------------ |
+| 2021-07-22 | Completed the 2021 Cyber Security Summer Camp course of Hetian Cyber Security Lab |
+| 2022-12-05 | Completed the Financial Business Training camp of Weimiao Business School |
+| 2022-12-08 | Completed the NetEase Mr. Xiao Investment elementary course. |
+| 2023-08-17 | Complete the Scrum Fundementals course                       |
 
-I have studied investment, equity top-level design, and equity incentive courses under the guidance of Mr. Song Junsheng and Mr. Xiao, and conducted in-depth research on company control and equity design and criminal law. 
+## Academic publication
 
-I have delved into the success stories of entrepreneurs such as Jack Ma, Steve Jobs, and Bill Gates, as well as the company structure and equity design of international industry leaders, and conducted research on the failed entrepreneurship cases of small, medium, and large companies. 
+- Zhihu, a fifth-level blogger, has published 72 articles on entrepreneurship, business management, information technology, and law
+- CSDN, 4 years of code age, a total of 13 MEDALS, published 29 articles on software technology, network technology, information technology.
 
-In my spare time of work and study, I am a fishing enthusiast and also like reading books very much. 
+## Personal experience
 
-Main interests: Law, software engineering, investment and finance
+&emsp;&emsp;I have studied the courses of investment, equity top-level design and equity incentive with Mr. Song Junsheng and Mr. Xiao, and have conducted in-depth research on corporate control and equity design and criminal law.
+
+&emsp;&emsp;I have deeply studied the successful entrepreneurial cases of Jack Ma, Steve Jobs and Bill Gates and the corporate structure and equity design of international leading enterprises, and studied the entrepreneurial failure cases of small, medium and large companies.
+
+&emsp;&emsp;In my spare time of work and study, I am also a fishing enthusiast and also like reading books very much.
+
+**Main interests：** Law, Software engineering, investment and finance
+
+## Academic article
+
+[1]John Tao.When installing MySQL on Windows, the solution "One or more product requirements have not been satisified" is incorrect.(2022-08-04).https://zhuanlan.zhihu.com/p/549887990
+
+[2]John Tao.MySQL5.6.36 installation tutorial.(2022-08-05).https://zhuanlan.zhihu.com/p/549906461
+
+*⚠Incomplete enumeration*
+
+## 🔗 Contact
+
+<div align="center">
+	<td>
+		<tr>
+    		<a href="https://blog.csdn.net/Suprman88"><img src="https://img.shields.io/badge/CSDN-论坛-c32136" /></a>
+    	</tr>
+    	<tr>
+    		<a href="https://www.zhihu.com/people/draper-crypto"><img src="https://img.shields.io/badge/Zhihu-知乎-blue" /></a>
+		</tr>
+	</td>
+	<br>
+	<td>
+		<tr>
+			<img src="https://stats.justsong.cn/api/zhihu?username=draper-crypto&theme=light&lang=zh-CN" />
+		</tr>
+		<tr>
+			<img src="https://stats.justsong.cn/api/csdn?id=Suprman88&theme=light&lang=zh-CN" />
+		</tr>
+	</td>
+	<br>
+	<img src="https://cdn.jsdelivr.net/gh/sun0225SUN/sun0225SUN/assets/images/cxyduck.gif">
+</div>
