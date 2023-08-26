@@ -53,29 +53,34 @@
 | 08-18 | Apple老师            | -           |
 | 08-22 | 工商管理硕士         | 00220403112 |
 
-<table border="1px solid #ccc" align="center">
+
+<table style="border: 1px solid #ccc; width: 100%;" align="center">
     <tr>
-        <td align="center"><img src="https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/202308261355288.png" style="width: 300px; height: 200px;"></td>
-        <td align="center"><img src="https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/202308261410215.PNG" style="width: 300px; height: 200px;"></td>
+        <td style="width: 50%; text-align: center;"><img src="https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/202308261355288.png" style="max-width: 100%; height: auto;"></td>
+        <td style="width: 50%; text-align: center;"><img src="https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/202308261410215.PNG" style="max-width: 100%; height: auto;"></td>
     </tr>
     <tr>
-        <td align="center"><img src="https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/202308261405222.jpg" style="width: 300px; height: 400px;" /></td>
-        <td align="center"><img src="https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/202308261358739.png" style="width: 300px; height: 400px;" /></td>
+        <td style="width: 50%; text-align: center;"><img src="https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/202308261405222.jpg" style="max-width: 100%; height: auto;"></td>
+        <td style="width: 50%; text-align: center;"><img src="https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/202308261358739.png" style="max-width: 100%; height: auto;"></td>
     </tr>
     <tr>
-        <td align="center"><img src="https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/202308261412227.PNG" style="width: 300px; height: 200px;" /></td>
-        <td align="center"><img src="https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/202308261415955.jpg" style="width: 300px; height: 200px;" /></td>
+        <td style="width: 50%; text-align: center;"><img src="https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/202308261412227.PNG" style="max-width: 100%; height: auto;"></td>
+        <td style="width: 50%; text-align: center;"><img src="https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/202308261415955.jpg" style="max-width: 100%; height: auto;"></td>
     </tr>
 </table>
-
 ## 🏆 所获荣誉
 
 | 日期       | 荣誉名称                                                     |
 | ---------- | ------------------------------------------------------------ |
 | 2022-09-01 | 钉钉授予初级数字化管理师、数字化人事管理师、数字化办公人才称号 |
 
-
-
+<table style="border: 1px solid #ccc; width: 80%;" align="center">
+    <tr>
+        <td style="width: 33.33%; text-align: center;"><img src="https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/202308262029780.PNG" style="max-width: 80%; height: auto;"></td>
+        <td style="width: 33.33%; text-align: center;"><img src="https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/202308262029975.PNG" style="max-width: 80%; height: auto;"></td>
+        <td style="width: 33.33%; text-align: center;"><img src="https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/202308262030965.PNG" style="max-width: 80%; height: auto;"></td>
+    </tr>
+</table>
 *⚠此处不列出小奖项（包括学校、学院发布的如三好学生之类荣誉）*
 
 ## 📙所学课程
