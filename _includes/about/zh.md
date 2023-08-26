@@ -14,28 +14,70 @@
 
 ## 💼 工作技能
 
+### 2019年
+
+| 日期       | 证书名称                                 | 证书编号            |
+| ---------- | ---------------------------------------- | ------------------- |
+| 12-13      | ATA办公软件应用系列MS Office应用技能中级 | S32000063194000980  |
+| 2022-08-29 | 阿里巴巴认证初级数字化会计师             | CDA0049622082910007 |
+| 2023-08-17 | 项目管理基本要素认证                     | 322468309           |
+| 2023-08-17 | COSHH风险评估员认证                      | jjhgzswezz          |
+| 2023-08-18 | Apple老师                                | -                   |
+| 2023-08-22 | 工商管理硕士                             | 00220403112         |
+
+### 2020年
+
 | 日期       | 证书名称                                         | 证书编号                               |
-| ---------- | ------------------------------------------------ | -------------------------------------- |
-| 2019-12-13 | ATA办公软件应用系列MS Office应用技能中级         | S32000063194000980                     |
-| 2020-03-01 | 高等学校英语应用能力考试(B级)                    | 1922821390121000106                    |
-| 2021-05-30 | Microsoft Word 专业级(Office 2016)               | LvP9-sFMd                              |
-| 2021-06-11 | Microsoft PowerPoint 专业级(Office 2016)         | RAvx-4TC4                              |
-| 2021-08-01 | Microsoft Excel 专业级(Office 2016)              | ywX9-XVsc                              |
-| 2021-08-05 | Microsoft Access 专业级(Office 2016)             | wncw5-4ScF                             |
-| 2021-08-05 | Microsoft Office Specialist: 大师级(Office 2016) | L29z-sFah                              |
-| 2021-08-05 | Microsoft Office Specialist: Master成绩单        | www.credly.com/users/username.d64f3534 |
-| 2021-09-14 | NISP-1信息安全专业人员                           | CNITSEC2021NISPⅠ05014                  |
-| 2022-08-29 | 阿里巴巴认证初级数字化会计师                     | CDA0049622082910007                    |
-| 2023-08-17 | 项目管理基本要素认证                             | 322468309                              |
-| 2023-08-17 | COSHH风险评估员认证                              | jjhgzswezz                             |
-| 2023-08-18 | Apple老师                                        | -                                      |
-| 2023-08-22 | 工商管理硕士                                     | 00220403112                            |
+| ---- | ---- | ---- |
+| 03-01 | 高等学校英语应用能力考试(B级)                    | 1922821390121000106                    |
+
+### 2021年
+| 日期  | 证书名称                                         | 证书编号                               |
+| ----- | ------------------------------------------------ | -------------------------------------- |
+| 05-30 | Microsoft Word 专业级(Office 2016)               | LvP9-sFMd                              |
+| 06-11 | Microsoft PowerPoint 专业级(Office 2016)         | RAvx-4TC4                              |
+| 08-01 | Microsoft Excel 专业级(Office 2016)              | ywX9-XVsc                              |
+| 08-05 | Microsoft Access 专业级(Office 2016)             | wncw5-4ScF                             |
+| 08-05 | Microsoft Office Specialist: 大师级(Office 2016) | L29z-sFah                              |
+| 08-05 | Microsoft Office Specialist: Master成绩单        | www.credly.com/users/username.d64f3534 |
+| 09-14 | NISP-1信息安全专业人员                           | CNITSEC2021NISPⅠ05014                  |
+
+### 2022年
+| 日期       | 证书名称                                 | 证书编号            |
+| ---------- | ---------------------------------------- | ------------------- |
+| 08-29 | 阿里巴巴认证初级数字化会计师             | CDA0049622082910007 |
+
+### 2023年
+
+| 日期  | 证书名称             | 证书编号    |
+| ----- | -------------------- | ----------- |
+| 08-17 | 项目管理基本要素认证 | 322468309   |
+| 08-17 | COSHH风险评估员认证  | jjhgzswezz  |
+| 08-18 | Apple老师            | -           |
+| 08-22 | 工商管理硕士         | 00220403112 |
+
+<table border="1px solid #ccc" align="center">
+    <tr>
+        <td align="center"><img src="https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/202308261355288.png" style="width: 400px; height: 300px;"></td>
+        <td align="center"><img src="https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/202308261410215.PNG" style="width: 400px; height: 300px;"></td>
+    </tr>
+    <tr>
+        <td align="center"><img src="https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/202308261405222.jpg" style="width: 400px; height: 500px;" /></td>
+        <td align="center"><img src="https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/202308261358739.png" style="width: 400px; height: 500px;" /></td>
+    </tr>
+    <tr>
+        <td align="center"><img src="https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/202308261412227.PNG" style="width: 400px; height: 300px;" /></td>
+        <td align="center"><img src="https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/202308261415955.jpg" style="width: 400px; height: 300px;" /></td>
+    </tr>
+</table>
 
 ## 🏆 所获荣誉
 
 | 日期       | 荣誉名称                                                     |
 | ---------- | ------------------------------------------------------------ |
 | 2022-09-01 | 钉钉授予初级数字化管理师、数字化人事管理师、数字化办公人才称号 |
+
+
 
 *⚠此处不列出小奖项（包括学校、学院发布的如三好学生之类荣誉）*
 
@@ -80,7 +122,7 @@
     	</tr>
     	<tr>
     		<a href="https://www.zhihu.com/people/draper-crypto"><img src="https://img.shields.io/badge/Zhihu-知乎-blue" /></a>
-		</tr>
+		</tr> 
 	</td>
 	<br>
 	<td>
@@ -93,4 +135,3 @@
 	</td>
 	<br>
 </div>
-
