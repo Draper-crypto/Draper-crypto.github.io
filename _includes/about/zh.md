@@ -32,6 +32,7 @@
 | 03-01 | 高等学校英语应用能力考试(B级)                    | 1922821390121000106                    |
 
 ### 2021年
+
 | 日期  | 证书名称                                         | 证书编号                               |
 | ----- | ------------------------------------------------ | -------------------------------------- |
 | 05-30 | Microsoft Word 专业级(Office 2016)               | LvP9-sFMd                              |
@@ -43,6 +44,7 @@
 | 09-14 | NISP-1信息安全专业人员                           | CNITSEC2021NISPⅠ05014                  |
 
 ### 2022年
+
 | 日期       | 证书名称                                 | 证书编号            |
 | ---------- | ---------------------------------------- | ------------------- |
 | 08-29 | 阿里巴巴认证初级数字化会计师             | CDA0049622082910007 |
@@ -58,16 +60,16 @@
 
 <table border="1px solid #ccc" align="center">
     <tr>
-        <td align="center"><img src="https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/202308261355288.png" style="width: 400px; height: 300px;"></td>
-        <td align="center"><img src="https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/202308261410215.PNG" style="width: 400px; height: 300px;"></td>
+        <td align="center"><img src="https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/202308261355288.png" style="width: 300px; height: 200px;"></td>
+        <td align="center"><img src="https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/202308261410215.PNG" style="width: 300px; height: 200px;"></td>
     </tr>
     <tr>
-        <td align="center"><img src="https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/202308261405222.jpg" style="width: 400px; height: 500px;" /></td>
-        <td align="center"><img src="https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/202308261358739.png" style="width: 400px; height: 500px;" /></td>
+        <td align="center"><img src="https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/202308261405222.jpg" style="width: 300px; height: 400px;" /></td>
+        <td align="center"><img src="https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/202308261358739.png" style="width: 300px; height: 400px;" /></td>
     </tr>
     <tr>
-        <td align="center"><img src="https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/202308261412227.PNG" style="width: 400px; height: 300px;" /></td>
-        <td align="center"><img src="https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/202308261415955.jpg" style="width: 400px; height: 300px;" /></td>
+        <td align="center"><img src="https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/202308261412227.PNG" style="width: 300px; height: 200px;" /></td>
+        <td align="center"><img src="https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/202308261415955.jpg" style="width: 300px; height: 200px;" /></td>
     </tr>
 </table>
 
