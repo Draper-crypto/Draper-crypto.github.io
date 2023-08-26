@@ -90,7 +90,7 @@ netease_comment: false
 # sidebar-about-description: 侧边栏的简介。
 # sidebar-avatar: 侧边栏的头像URL。
 sidebar: true # whether or not using Sidebar.
-sidebar-about-description: "John Tao<br>求知若渴，虚怀若愚<br>Stay hungry，stay foolish."
+sidebar-about-description: "求知若渴，虚怀若愚<br>Stay hungry，stay foolish."
 sidebar-avatar: https://www.draper-crypto.top/img/about.jpg # use absolute URL, seeing it's used in both `/` and `/about/`
 
 # 特色标签设置 (Featured Tags):
