@@ -1,4 +1,4 @@
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Ma+Shan+Zheng&size=30&pause=1000&multiline=true&width=688&height=88&lines=你好！👋👋👋我是约翰·陶。;用良知驾驭我们之所学，而不因所学蒙蔽了良知。)
+![Typing SVG](https://readme-typing-svg.demolab.com?font=Ma+Shan+Zheng&size=30&pause=1000&multiline=true&width=688&height=88&lines=你好！👋👋👋我是约翰·陶。;用良知驾驭我们之所学，而不因所学蒙蔽了良知。)
 
 > “求知若渴，虚怀若愚”
 
