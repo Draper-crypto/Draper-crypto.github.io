@@ -1,4 +1,4 @@
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=2168F7&center=%E7%9C%9F&vCenter=%E7%9C%9F&multiline=true&repeat=%E7%9C%9F&width=788&height=88&lines=Hi%EF%BC%81%F0%9F%91%8B%F0%9F%91%8B%F0%9F%91%8B+I'm+draper-crypto.;I+want+to+change+the+future+through+artificial+intelligence.;Create+epoch-making+products." alt="Typing SVG" /></a>
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Ma+Shan+Zheng&size=30&pause=1000&multiline=true&width=688&height=88&lines=你好！👋👋👋我是约翰·陶。;用良知驾驭我们之所学，而不因所学蒙蔽了良知。)](https://git.io/typing-svg)
 
 > “求知若渴，虚怀若愚”
 
