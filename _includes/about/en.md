@@ -4,7 +4,7 @@
 
 # John Tao
 
-## Educational experience
+## 🎓 Educational experience
 
 - 🎓 Junior college student majoring in **software technology** in Nanjing Engineering Higher Vocational School
 - 🎓 Soochow University **law major** self-examination undergraduate
@@ -12,7 +12,7 @@
 - 🔭 Member of Changjiang Technical and Economic Association（I2302227M）
 - 💰 Robert Kiyosaki **"Rich Dad" course** participant
 
-## Job skill
+## 💼 Job skill
 
 | Date       | Certificate name                                             | Certificate number                     |
 | ---------- | ------------------------------------------------------------ | -------------------------------------- |
@@ -31,15 +31,38 @@
 | 2023-08-18 | Apple Teacher                                                | -                                      |
 | 2023-08-22 | Master of Business Administration                            | 00220403112                            |
 
-## Honor received
+<table style="border: 1px solid #ccc; width: 100%;" align="center">
+    <tr>
+        <td style="width: 50%; text-align: center;"><img src="https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/202308261355288.png" style="max-width: 100%; height: auto;"></td>
+        <td style="width: 50%; text-align: center;"><img src="https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/202308261410215.PNG" style="max-width: 100%; height: auto;"></td>
+    </tr>
+    <tr>
+        <td style="width: 50%; text-align: center;"><img src="https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/202308261405222.jpg" style="max-width: 100%; height: auto;"></td>
+        <td style="width: 50%; text-align: center;"><img src="https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/202308261358739.png" style="max-width: 100%; height: auto;"></td>
+    </tr>
+    <tr>
+        <td style="width: 50%; text-align: center;"><img src="https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/202308261412227.PNG" style="max-width: 100%; height: auto;"></td>
+        <td style="width: 50%; text-align: center;"><img src="https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/202308261415955.jpg" style="max-width: 100%; height: auto;"></td>
+    </tr>
+</table>
+
+## 🏆 Honor received
 
 | Date       | Honorary title                                               |
 | ---------- | ------------------------------------------------------------ |
 | 2022-09-01 | Dingding awarded the title of junior digital manager, digital personnel manager and digital office talent |
 
+<table style="border: 1px solid #ccc; width: 80%;" align="center">
+    <tr>
+        <td style="width: 33.33%; text-align: center;"><img src="https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/202308262029780.PNG" style="max-width: 80%; height: auto;"></td>
+        <td style="width: 33.33%; text-align: center;"><img src="https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/202308262029975.PNG" style="max-width: 80%; height: auto;"></td>
+        <td style="width: 33.33%; text-align: center;"><img src="https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/202308262030965.PNG" style="max-width: 80%; height: auto;"></td>
+    </tr>
+</table>
+
 *⚠Minor awards are not listed here (including honors issued by schools and colleges such as Merit students)*
 
-## Courses completed
+## 📙 Courses completed
 
 | Date       | Honorary title                                               |
 | ---------- | ------------------------------------------------------------ |
@@ -48,12 +71,12 @@
 | 2022-12-08 | Completed the NetEase Mr. Xiao Investment elementary course. |
 | 2023-08-17 | Complete the Scrum Fundementals course                       |
 
-## Academic publication
+## 💡 Academic publication
 
 - Zhihu, a fifth-level blogger, has published 72 articles on entrepreneurship, business management, information technology, and law
 - CSDN, 4 years of code age, a total of 13 MEDALS, published 29 articles on software technology, network technology, information technology.
 
-## Personal experience
+## 🚀 Personal experience
 
 &emsp;&emsp;I have studied the courses of investment, equity top-level design and equity incentive with Mr. Song Junsheng and Mr. Xiao, and have conducted in-depth research on corporate control and equity design and criminal law.
 
@@ -63,7 +86,7 @@
 
 **Main interests：** Law, Software engineering, investment and finance
 
-## Academic article
+## 🎓 Academic article
 
 [1]John Tao.When installing MySQL on Windows, the solution "One or more product requirements have not been satisified" is incorrect.(2022-08-04).https://zhuanlan.zhihu.com/p/549887990
 
@@ -91,6 +114,5 @@
 			<img src="https://stats.justsong.cn/api/csdn?id=Suprman88&theme=light&lang=zh-CN" />
 		</tr>
 	</td>
-	<br>
-	<img src="https://cdn.jsdelivr.net/gh/sun0225SUN/sun0225SUN/assets/images/cxyduck.gif">
 </div>
+
