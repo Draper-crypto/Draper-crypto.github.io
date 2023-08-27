@@ -1,4 +1,4 @@
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Merriweather&size=30&pause=1000&multiline=true&width=688&height=88&lines=Hello!+%F0%9F%91%8B%F0%9F%91%8B%F0%9F%91%8B+I'm+John+Tao.;%E2%80%9CStay+hungry%EF%BC%8Cstay+foolish.%E2%80%9D)
+![Typing SVG](https://readme-typing-svg.demolab.com?font=Merriweather&size=30&pause=1000&multiline=true&width=688&height=88&lines=Hello!+%F0%9F%91%8B%F0%9F%91%8B%F0%9F%91%8B+I'm+John+Tao.;%E2%80%9CStay+hungry%EF%BC%8Cstay+foolish.%E2%80%9D)
 
 > Stay hungry，stay foolish.
 
