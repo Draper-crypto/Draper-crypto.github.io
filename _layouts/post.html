@@ -11,7 +11,9 @@ layout: default
 
 <!-- Post Content -->
 <article>
-    <div class="pager">本文字数：共计&nbsp;{{ page.content | number_of_words }}&nbsp;字</div>
+    {% assign contentWithoutHtml = page.content | replace: '<p>', '' | replace: '</p>', '' | replace: '<a', '' | replace: '</a>', '' %}
+    <div class="pager">本文字数：共计&nbsp;{{ contentWithoutHtml | number_of_words }}&nbsp;字</div>
+
 
     <div class="container">
         <div class="row">
