@@ -13,7 +13,7 @@ layout: default
 <article>
     
     <div class="pager">
-        本文字数：共计&nbsp;{{ page.content | strip_html | strip_newlines | remove: " " | size }}&nbsp;字</div>
+        本文字数：共计&nbsp;{{ page.content | strip_html | strip_newlines | remove: " " | size }}&nbsp;字<br>
         本文阅读时长约&nbsp;{{ page.content | strip_html | strip_newlines | remove: " " | size | divided_by: 350 | plus: 1 }}&nbsp;分钟
     </div> 
     {% assign count = 0 %}
