@@ -114,11 +114,8 @@ page-mathjax: false
 friends:
   [
     { title: "Foresee Studio", href: "https://foreseestudio.top/" },
-    { title: "CSDN", href: "https://blog.csdn.net" },
-    { title: "知乎", href: "https://www.zhihu.com/" },
+    { title: "Foresee Studio论坛", href: "http://jlstudio.natapp1.cc/" },
     { title: "Apple Developer", href: "https://developer.apple.com/" },
     { title: "Apple Education Community", href: "https://education.apple.com/" },
     { title: "Openai", href: "https://openai.com/" },
-    # { title: "DHong Say", href: "http://dhong.co" },
-    # { title: "尹峰以为", href: "http://ingf.github.io/" },
   ]
