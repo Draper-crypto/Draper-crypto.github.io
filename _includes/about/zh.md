@@ -68,6 +68,7 @@
         <td style="width: 50%; text-align: center;"><img src="https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/202308261415955.jpg" style="max-width: 100%; height: auto;"></td>
     </tr>
 </table>
+
 ## 🏆 所获荣誉
 
 | 日期       | 荣誉名称                                                     |
@@ -81,6 +82,7 @@
         <td style="width: 33.33%; text-align: center;"><img src="https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img/202308262030965.PNG" style="max-width: 80%; height: auto;"></td>
     </tr>
 </table>
+
 *⚠此处不列出小奖项（包括学校、学院发布的如三好学生之类荣誉）*
 
 ## 📙所学课程
@@ -109,6 +111,8 @@
 
 ## 🎓 学术文章
 
+> 注意：以下均已申请著作权，转载需注明出处。
+
 [1]John Tao.Windows安装MySQL时报错“One or more product requirements have not been satisified”的解决办法.(2022-08-04).https://zhuanlan.zhihu.com/p/549887990
 
 [2]John Tao.MySQL5.6.36安装教程.(2022-08-05).https://zhuanlan.zhihu.com/p/549906461
@@ -128,9 +132,6 @@
 	</td>
 	<br>
 	<td>
-		<tr>
-			<img src="https://stats.justsong.cn/api/zhihu?username=draper-crypto&theme=light&lang=zh-CN" />
-		</tr>
 		<tr>
 			<img src="https://stats.justsong.cn/api/csdn?id=Suprman88&theme=light&lang=zh-CN" />
 		</tr>
