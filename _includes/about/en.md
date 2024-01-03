@@ -14,22 +14,44 @@
 
 ## 💼 Job skill
 
-| Date       | Certificate name                                             | Certificate number                     |
-| ---------- | ------------------------------------------------------------ | -------------------------------------- |
-| 2019-12-13 | ATA Office Software Application Series MS Office application skills Intermediate | S32000063194000980                     |
-| 2020-03-01 | College English Proficiency Test (Level B)                   | 1922821390121000106                    |
-| 2021-05-30 | Microsoft Word expert(Office 2016)                           | LvP9-sFMd                              |
-| 2021-06-11 | Microsoft PowerPoint expert(Office 2016)                     | RAvx-4TC4                              |
-| 2021-08-01 | Microsoft Excel expert(Office 2016)                          | ywX9-XVsc                              |
-| 2021-08-05 | Microsoft Access expert(Office 2016)                         | wncw5-4ScF                             |
-| 2021-08-05 | Microsoft Office Specialist: Master(Office 2016)             | L29z-sFah                              |
-| 2021-08-05 | Microsoft Office Specialist: Master Report card              | www.credly.com/users/username.d64f3534 |
-| 2021-09-14 | NISP-1 Information Security Professionals                    | CNITSEC2021NISPⅠ05014                  |
-| 2022-08-29 | Alibaba certified junior digital accountant                  | CDA0049622082910007                    |
-| 2023-08-17 | Project management Essentials Certification                  | 322468309                              |
-| 2023-08-17 | COSHH Certified Risk Assessor                                | jjhgzswezz                             |
-| 2023-08-18 | Apple Teacher                                                | -                                      |
-| 2023-08-22 | Master of Business Administration                            | 00220403112                            |
+### 2019
+
+| Date  | Certificate Name                                             | Certificate Number |
+| ----- | ------------------------------------------------------------ | ------------------ |
+| 12-13 | ATA Office Software Application Series: Intermediate MS Office Application Skills | S32000063194000980 |
+
+### 2020
+
+| Date  | Certificate Name                                   | Certificate Number  |
+| ----- | -------------------------------------------------- | ------------------- |
+| 03-01 | College English Application Ability Test (Level B) | 1922821390121000106 |
+
+### 2021
+
+| Date  | Certificate Name                                        | Certificate Number                                           |
+| ----- | ------------------------------------------------------- | ------------------------------------------------------------ |
+| 05-30 | Microsoft Word Professional (Office 2016)               | LvP9-sFMd                                                    |
+| 06-11 | Microsoft PowerPoint Professional (Office 2016)         | RAvx-4TC4                                                    |
+| 08-01 | Microsoft Excel Professional (Office 2016)              | ywX9-XVsc                                                    |
+| 08-05 | Microsoft Access Professional (Office 2016)             | wncw5-4ScF                                                   |
+| 08-05 | Microsoft Office Specialist: Master Level (Office 2016) | L29z-sFah                                                    |
+| 08-05 | Microsoft Office Specialist: Master Transcript          | [www.credly.com/users/username.d64f3534](http://www.credly.com/users/username.d64f3534) |
+| 09-14 | NISP-1 Information Security Professional                | CNITSEC2021NISPⅠ05014                                        |
+
+### 2022
+
+| Date  | Certificate Name                            | Certificate Number  |
+| ----- | ------------------------------------------- | ------------------- |
+| 08-29 | Alibaba Certified Junior Digital Accountant | CDA0049622082910007 |
+
+### 2023
+
+| Date  | Certificate Name                                   | Certificate Number |
+| ----- | -------------------------------------------------- | ------------------ |
+| 08-17 | Basic Elements of Project Management Certification | 322468309          |
+| 08-17 | COSHH Risk Assessor Certification                  | jjhgzswezz         |
+| 08-18 | Apple Teacher                                      | -                  |
+| 08-22 | Master of Business Administration                  | 00220403112        |
 
 <table style="border: 1px solid #ccc; width: 100%;" align="center">
     <tr>
@@ -73,7 +95,7 @@
 
 ## 💡 Academic publication
 
-- Zhihu, a fifth-level blogger, has published 72 articles on entrepreneurship, business management, information technology, and law
+- Zhihu, a fifth-level blogger, has published 75 articles on entrepreneurship, business management, information technology, and law
 - CSDN, 4 years of code age, a total of 13 MEDALS, published 29 articles on software technology, network technology, information technology.
 
 ## 🚀 Personal experience
@@ -88,11 +110,9 @@
 
 ## 🎓 Academic article
 
-[1]John Tao.When installing MySQL on Windows, the solution "One or more product requirements have not been satisified" is incorrect.(2022-08-04).https://zhuanlan.zhihu.com/p/549887990
+[1] "Application of Generative Artificial Intelligence in Picture Book Creation: Exploring Text and Image Fusion Technology." (2023-08-18). Registration Number: Suzuo Dengzi-2023-A-00242935. [Link](https://jscopyright.cn/jsuser/user/wx/certificate-detail?serialNum=202309Z1100031119)
 
-[2]John Tao.MySQL5.6.36 installation tutorial.(2022-08-05).https://zhuanlan.zhihu.com/p/549906461
-
-*⚠Incomplete enumeration*
+[2] "Intelligent Monitoring and Early Warning Integrated System for Lifting Equipment" (2023-04-08). Registration Number: Suzuo Dengzi-2023-A-00142580. [Link](https://jscopyright.cn/jsuser/user/wx/certificate-detail?serialNum=202306Z1100025731)*
 
 ## 🔗 Contact
 
@@ -108,10 +128,11 @@
 	<br>
 	<td>
 		<tr>
-			<img src="https://stats.justsong.cn/api/zhihu?username=draper-crypto&theme=light&lang=zh-CN" />
-		</tr>
-		<tr>
 			<img src="https://stats.justsong.cn/api/csdn?id=Suprman88&theme=light&lang=zh-CN" />
 		</tr>
 	</td>
 </div>
+
+## 📅 Update Time
+
+The last update of this article was at: **January 3, 2024, 22:07**.

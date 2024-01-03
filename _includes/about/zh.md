@@ -113,9 +113,8 @@
 
 > 注意：以下均已申请著作权，转载需注明出处。
 
-[1]生成型人工智能在绘本创作中的应用：文本与图像的融合技术探究.(2023-08-18).苏作登字-2023-A-00242935.https://jscopyright.cn/jsuser/user/wx/certificate-detail?serialNum=202309Z1100031119
-
-[2]起重设备智能监测预警集成系统(2023-04-08).苏作登字-2023-A-00142580.https://jscopyright.cn/jsuser/user/wx/certificate-detail?serialNum=202306Z1100025731
+1. "生成型人工智能在绘本创作中的应用：文本与图像的融合技术探究" (2023-08-18)。证书编号：苏作登字-2023-A-00242935。[链接](https://jscopyright.cn/jsuser/user/wx/certificate-detail?serialNum=202309Z1100031119)
+2. "起重设备智能监测预警集成系统" (2023-04-08)。证书编号：苏作登字-2023-A-00142580。[链接](https://jscopyright.cn/jsuser/user/wx/certificate-detail?serialNum=202306Z1100025731)
 
 
 
