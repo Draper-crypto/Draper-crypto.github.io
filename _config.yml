@@ -12,7 +12,7 @@ header-img: img/post-bg-index.jpg
 email: wrecking.midnight@gmail.com
 description: ""
 keyword: "Draper-crypto, Draper-crypto Blog, Draper-crypto的博客, John Tao, John Tao Blog, John Tao的博客"
-url: "https://draper-crypto.github.io/"          # your host, for absolute URL
+url: "https://www.draper-crypto.top/"          # your host, for absolute URL
 baseurl: "" # for example, '/blog' if your blog hosted on 'host/blog'
 
 # 帖子设置 (Publish posts or collection documents with a future date.):
